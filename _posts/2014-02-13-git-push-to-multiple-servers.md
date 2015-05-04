@@ -73,5 +73,5 @@ Then when you are done checkout to master and merge master with latest release c
 
 That's it.  : -)
 
-[1]: http://www.boynux.com/wp-content/uploads/2014/02/git.png
+[1]: {{ site.url }}/img/git.png
 [2]: http://www.boynux.com/angularjs-apply-explained/ "How to remove credentials from GIT history"

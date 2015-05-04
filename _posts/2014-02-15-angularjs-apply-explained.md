@@ -4,7 +4,7 @@ title: AngularJs apply explained
 excerpt: If you're working on Angularjs apps and getting $digest in progress or similar errors, it means that you still need to know more about AjngularJs apply.
 ---
 
-[<img class="size-medium wp-image-708 alignright" style="margin-left: 20px; margin-right: 20px;" alt="AngularJs Apply" src="http://www.boynux.com/wp-content/uploads/2014/02/angularjs-apply-300x168.png" width="300" height="168" />][1]
+[<img class="size-medium wp-image-708 alignright" style="margin-left: 20px; margin-right: 20px;" alt="AngularJs Apply" src="{{ site.url }}/img/angularjs-apply-300x168.png" width="300" height="168" />][1]
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
 <div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
@@ -78,4 +78,4 @@ function ($scope, $timeout) {
 
 <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="auto"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-[1]: http://www.boynux.com/wp-content/uploads/2014/02/angularjs-apply.png
+[1]: {{ site.url }}/img/angularjs-apply.png

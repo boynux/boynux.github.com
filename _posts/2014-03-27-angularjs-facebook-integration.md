@@ -6,7 +6,7 @@ excerpt: Have you ever wanted to integrate third party frameworks into AngluarJs
 
 If you've ever written any code in Javascript, you've already experienced asynchronous calls complexities. But that wouldn't be much difficult to overcome when you understand the basics.
 
-[<img class="size-medium wp-image-845 alignright" title="AngularJS Facebook" alt="AngularJS Facebook" src="http://www.boynux.com/wp-content/uploads/2014/03/angularjs-facebook-300x120.png" width="300" height="120" />][1]  
+[<img class="size-medium wp-image-845 alignright" title="AngularJS Facebook" alt="AngularJS Facebook" src="{{ site.url }}/img/angularjs-facebook-300x120.png" width="300" height="120" />][1]  
 
 ## Asynchronous Complexity
 
@@ -302,7 +302,7 @@ References:
 * [Facebook Javascript documentation][5]
 * [AngularJs apply explained][2]
 
-[1]: http://www.boynux.com/wp-content/uploads/2014/03/angularjs-facebook.png
+[1]: {{ site.url }}/img/angularjs-facebook.png
 [2]: http://www.boynux.com/angularjs-apply-explained/ "AngularJs apply explained"
 [3]: https://github.com/boynux/AngularFacebook "Facebook module on GitHub"
 [4]: http://docs.angularjs.org/guide
