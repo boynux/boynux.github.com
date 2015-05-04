@@ -23,13 +23,14 @@
 # url : https://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
-name : gh-pages-blog
-brand : gh-pages-blog
-description : The More Or Less Official GH-Pages-Blog GitHub Page (And Blog)
-url : https://thedereck.github.io/gh-pages-blog
-email : thedereck@thedereck.com
-author: Dereck Curry
+name : Boynux
+brand : Boynux
+description : The way it works ...
+url : http://localhost
+email : reachme@boynu.com
+author: Boynux
 
+permalink: /:title/
 
 # The following is a list of files to exclude from inclusion in the
 # generated gh-pages website.
@@ -78,7 +79,7 @@ favicon :
   enabled : true
   local :
     enabled : true
-    partial_url : /img/ghpb-favicon.png
+    partial_url : /img/boynux-16.png
     type : png
   remote :
     enabled : false
@@ -102,7 +103,7 @@ favicon :
 # served by the GitHub pages.
 #
 # brief_bio : content - The content of the brief bio should be written in the
-# in the file located in the _includes/content/brief-bio file.
+# in the file located in the _includes/cReading stuffontent/brief-bio file.
 #
 # brief_bio : social_links - The social links that are displayed in the brief
 # bio are the same ones that are configured in the social_links configuration
@@ -183,10 +184,12 @@ sections:
   external_links :
     enabled : true
   archive :
-    enabled : false
+    enabled : true
   categories :
     enabled : false
   tags :
+    enabled : false
+  ads:
     enabled : false
 
 
@@ -279,28 +282,28 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : https://www.twitter.com/dereckcurry
 social_links :
-  follow_name : Dereck Curry For Updates About gh-pages-blog
+  follow_name : Boynux for updates and blogs 
   links :
     - link :
       enabled : true
       name : GitHub
       font_awesome_icon : icon-github-alt
-      url : https://github.com/TheDereck
+      url : https://github.com/boynux
     - link :
       enabled : true
       name: Google+
       font_awesome_icon : icon-google-plus
-      url : https://plus.google.com/109660251296662910676?rel=author
+      url : https://www.google.com/+Boynux
     - link :
       enabled : true
       name : Linkedin
       font_awesome_icon : icon-linkedin
-      url : http://www.linkedin.com/in/dereckcurry
+      url : http://www.linkedin.com/in/boynux
     - link :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : https://www.twitter.com/DereckCurry
+      url : https://www.twitter.com/_boynux_
 
 
 # These are a list of GitHub projects that the blog owner would like to
@@ -327,8 +330,8 @@ github_projects :
   header : Fork Me!
   projects :
   - project :
-    name : gh-pages-blog
-    url : https://github.com/thedereck/gh-pages-blog
+    name : AngularJs Facebook
+    url : https://github.com/boynux/AngularJs-Facebook
 
 
 # These are links to other websites outside of the blog that are not part of
@@ -346,18 +349,18 @@ github_projects :
 # external_links :
 #   header : Links
 #   links :
-#     - link :
+# https://plus.google.com/109660251296662910676?rel=author     - link :
 #       name : Baking Kookys
 #       url : http://www.bakingkookys.com
 #     - link :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Great gh-pages-blog Sites!
+  header : Reading stuff
   links :
     - link :
-      name : The Dereck
-      url: https://thedereck.github.io
+      name : 
+      url: 
 
 
 # These are the Bootstrap settings. These Bootstrap settings will control both
@@ -538,7 +541,7 @@ rss :
 #   show_comment_count : false
 disqus :
   enabled : true
-  shortname : ghpagesblog
+  shortname : boynux
   show_comment_count : true
 
 
@@ -563,4 +566,4 @@ analytics :
   enabled : true
   google_analytics :
     enabled : true
-    tracking_id : UA-7954274-6
+    tracking_id : UA-60601499-1

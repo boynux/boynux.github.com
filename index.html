@@ -1,8 +1,8 @@
 ---
 layout : page
 exclude : true
-subtitle : Snarky subtitles included free-of-charge!
-notice : New to gh-pages-blog? Learn more by visiting the <a href="http://thedereck.github.io/gh-pages-blog/user-manual/getting-started.html">Getting Started</a> page.
+subtitle : 
+notice : 
 ---
 
 {% assign index_page_html = null %}
@@ -34,13 +34,12 @@ notice : New to gh-pages-blog? Learn more by visiting the <a href="http://theder
 					{% endif %}
 				{% endif %}
 
+				{{ p.excerpt }}
 				<br>
-				{{ p.content }}
 
-				<br>
 				<div class="row">
 					<small>
-						<div class="span3 offset1">
+						<div class="span3 ">
 							{% if site.font_awesome.enabled %}
 								<i class="icon-user"></i> 
 							{% endif %}
