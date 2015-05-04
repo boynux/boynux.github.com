@@ -6,10 +6,12 @@ excerpt: Removing files from your GIT branch does not make them inaccessible thr
 
 If you happen to read my other article about **[GIT push to multiple servers][2]** you might noticed that if you have your secret files pushed in your GIT at first place, just removing those files from your branch does not make them inaccessible throughout your GIT history. 
 
-Reviewing the GIT history can easily reveal those information. If you could change your secret information and create new ones, then you are fine. But what if you can't really change those information? Here I explain how to alter your GIT history to get rid of those footprints. <h3 style="display: inline-block;">
-  So, let's purge credentials from GIT history.
+[<img align='left' class="size-medium wp-image-720 alignright" style="margin-left: 20px; margin-right: 20px;" title="remove credentials from GIT" alt="git-alter" src="{{ site.url }}/img/git-later-300x108.png" width="300" height="108" />][1]
 
-[<img class="size-medium wp-image-720 alignright" style="margin-left: 20px; margin-right: 20px;" title="remove credentials from GIT" alt="git-alter" src="{{ site.url }}/img/git-later-300x108.png" width="300" height="108" />][1]</h3>
+Reviewing the GIT history can easily reveal those information. If you could change your secret information and create new ones, then you are fine. But what if you can't really change those information? Here I explain how to alter your GIT history to get rid of those footprints.  
+
+**So, let's purge credentials from GIT history.**
+
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
 <div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
