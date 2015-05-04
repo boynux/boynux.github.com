@@ -6,6 +6,13 @@
 		{% else %}
 			<title>{{ site.name }} - {{ site.description }}</title>
 		{% endif %}
+
+		{% assign keywords_tag_names = null %}
+		{% capture keywords_tag_names %}{% for t in page.tags %}{{ t | replace: ' ', '_' }},{% endfor %}{% endcapture %}
+        <meta name="keywords" content="{{ keywords_tag_names }}" />
+
+		{% capture description %}{{ page.excerpt | replace: '"', '' }}{% endcapture %}
+        <meta name="description" content='{{ description }}' />
 		{% include head/common/common.html %}
 	</head>
 {% endcapture %}
