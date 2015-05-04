@@ -9,7 +9,7 @@ excerpt: Kanban is a tool not a process. You can use Kanban to visualize your pr
 
 [<img src="{{ site.url }}/img/kanban-training-320x83.jpg" alt="Kanban training" />][1]
 
-Last week I've got a chance attending to Kanban training session conducted by [*Marcus Hammarberg*][2]. Coauthor of the book [*Kanban in Action*][3].
+Last week I've got a chance to attend to Kanban training session conducted by [*Marcus Hammarberg*][2]. Coauthor of the book [*Kanban in Action*][3].
 
 He started with a very simple but effective game which helped us to understand how to collect metrics about our process and how minor changes can have a huge impact in the final results. And then he went through some key principals of Kanban. Followed by more details about Kanban by asking some questions about what we are currently doing and our processes. And finally we had a retrospective. Whole training was a 3 day session.
 
@@ -17,7 +17,7 @@ We all might be familiar with some sort of Kanban in our day to day work and I u
 
 Why I chose "Why you can't do 'Kanban'" as a title? There is a very interesting reasoning behind it. Let me explain a little bit more.
 
-What I learned from Marcus is that Kanban is not a process or methodology, at least not like what Scrum or others are. It's just a tool and a power full one. We can apply Kanban to an existing process in our organization and that helps us to visualize process and find bottle necks and problems in that.
+He is definitely a great coach. What I learned from Marcus is that Kanban is not a process or methodology, at least not like what Scrum or others are. It's just a tool and a power full one. We can apply Kanban to an existing process in our organization and that helps us to visualize process and find bottle necks and problems in that.
 
 That's why you can't 'Do Kanban' but you can 'Use Kanban'.
 
