@@ -9,7 +9,7 @@ tags:
 category: methodologies
 ---
 
-[<img src="{{ site.url }}/img/impact-mapping-small.png" alt="Impact Mapping" align="right" />][3]
+[<img src="{{ site.url }}/img/impact-mapping-small.jpg" alt="Impact Mapping" align="right" />][3]
 Malaysia's third agile meet-up very well hosted by Nintex Malaysia. All seats booked pretty fast. [*Marcus Hammarberge*][1] was the main speaker.
 
 The topic was pretty interesting and new to me. I'm going to jot down some key take aways maybe someone else will find it use full and a starting point to use this powerful strategy.
@@ -38,4 +38,4 @@ For more information you can refer to [*Impact Mapping* official website][1].
 
 [1]: http://www.marcusoft.net
 [2]: http://www.impactmapping.org/
-[3]: {{ site.url }}/img/impact-mapping.png
+[3]: {{ site.url }}/img/impact-mapping.jpg
