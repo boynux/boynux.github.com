@@ -4,7 +4,7 @@ title: Using Facebook API with AngularJs app - Part 1
 excerpt: In this part I'm going to cover how to use Facebook API with AngularJs App to implement Like, Recommend and Share buttons. Let's add some cool social features in our AngularJs apps easily.
 ---
 
-<img class="size-medium wp-image-845 aligncenter" title="AngularJS Facebook" alt="Facebook API with AngularJs app" src="http://www.boynux.com/wp-content/uploads/2014/03/angularjs-facebook-300x120.png" width="300" height="120" />
+<img class="size-medium wp-image-845 aligncenter" title="AngularJS Facebook" alt="Facebook API with AngularJs app" src="{{ site.url }}/img/angularjs-facebook-300x120.png" width="300" height="120" />
 
 Integrating social network authentication and features into web sites are very common nowadays. There are growing number of web applications here and there providing their services via social network authentication protocols. 
 

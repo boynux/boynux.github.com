@@ -4,7 +4,7 @@ title:  Using Facebook API with AngularJs app - Part 2
 excerpt: In this part I'm going to cover how to use Facebook API with AngularJs App to implement Facebook Login feature. With this feature you can easily integrate your AngularJs apps with Facebook social oAuth.
 ---
 
-[<img class="size-medium wp-image-845 aligncenter" title="AngularJS Facebook" alt="Facebook API with AngularJs app" src="http://www.boynux.com/wp-content/uploads/2014/03/angularjs-facebook-300x120.png" width="300" height="120" />][1]
+[<img class="size-medium wp-image-845 aligncenter" title="AngularJS Facebook" alt="Facebook API with AngularJs app" src="{{ site.url }}/img/angularjs-facebook-300x120.png" width="300" height="120" />][1]
 
 Hi, This is the second part of "Facebook API with AngularJs app". If you haven't read the [first part][2] yet, I suggest you to read that first. 
 
@@ -132,5 +132,5 @@ That&#39;s it. This snippet will show a standard medium size Facebook login butt
 </ins> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
-[1]: http://www.boynux.com/wp-content/uploads/2014/03/angularjs-facebook.png
+[1]: {{ site.url }}/img/angularjs-facebook.png
 [2]: http://www.boynux.com/facebook-api-with-angularjs-app-part-1/ "Using Facebook API with AngularJs app – Part 1"

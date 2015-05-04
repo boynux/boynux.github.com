@@ -6,7 +6,7 @@ excerpt: Raspberry Pi sends public IP adress behind NAT via Email. If you have p
 
 This is a continue to my project [Raspberry Pi VPN][2] server. In that article I explained how to create a VPN server with your Raspberry Pi. I did that and enabled my home router port forwarding for ports 22 (`SSH`) and 1723 (`PPTP`). It works perfectly but there is one small problem! Not very small though!
 
-[<img title="Raspberry Pi Public IP" src="http://www.boynux.com/wp-content/uploads/2014/04/Raspi_Colour_R-248x300.png" alt="Raspberry Pi" class="alignright wp-image-900 size-medium" height="300" width="248" />][1]
+[<img title="Raspberry Pi Public IP" src="{{ site.url }}/img/Raspi_Colour_R-248x300.png" alt="Raspberry Pi" class="alignright wp-image-900 size-medium" height="300" width="248" />][1]
 
 ## Introduction
 
@@ -191,5 +191,5 @@ And make it executable:
   
 That's all. Now you everything settled and should work properly. Please leave comments and share if you found this article useful.
 
-[1]: http://www.boynux.com/wp-content/uploads/2014/04/Raspi_Colour_R.png
+[1]: {{ site.url }}/img/Raspi_Colour_R.png
 [2]: http://www.boynux.com/raspberry-pi-vpn-server/ "Raspberry Pi VPN Server"

@@ -8,7 +8,7 @@ I've been using LXC containers as a DevBox (ie. development environment) and als
 
 Introduction:
 =========
-<a href="http://www.boynux.com/wp-content/uploads/2014/11/Thalassa_Hellas_container_ship_on_its_maiden_voyage_on_the_river_Elbe.png"><img src="http://www.boynux.com/wp-content/uploads/2014/11/Thalassa_Hellas_container_ship_on_its_maiden_voyage_on_the_river_Elbe.png" alt="Thalassa_Hellas_container_ship_on_its_maiden_voyage_on_the_river_Elbe" width="400" height="300" class="alignnone size-full wp-image-1123" alt="Containers as DevBox" /></a>
+<a href="{{ site.url }}/img/container-ship.png"><img src="{{ site.url }}/img/container-ship.png" alt="Container in Ship" width="400" height="300" class="alignnone size-full wp-image-1123" alt="Containers as DevBox" /></a>
 
 During this time I developed a few good patterns that helped me to use containers much easier.
 

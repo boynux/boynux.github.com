@@ -11,7 +11,7 @@ excerpt: First of all you need well established procedures and roles, then we ca
 Introduction:
 ==========
 
-<a href="http://www.boynux.com/wp-content/uploads/2014/10/1280px-Scrum_process.svg_.png"><img class="alignright wp-image-1054" title="Scrum" src="http://www.boynux.com/wp-content/uploads/2014/10/1280px-Scrum_process.svg_.png" alt="1280px-Scrum_process.svg" width="300" height="150" /></a>
+<a href="{{ site.url }}/img/1280px-Scrum_process.svg_.png"><img class="alignright wp-image-1054" title="Scrum" src="{{ site.url }}/img/1280px-Scrum_process.svg_.png" alt="1280px-Scrum_process.svg" width="300" height="150" /></a>
 
 I been using SCRUM and working in that kind of environment for 3-4 years, I liked it a lot, I'm currently working in such environment as well, but when I look back into those past few years I realize that success of Scrum, relies on the fact that the organization is finely tuned and successful by itself. I'm saying that because even without using SCRUM that organizations could potentially deliver good quality products. Scrum only helped to facilitate the delivery process and emphasizes some good practices. On the other hand every time I saw an organization trying to fit a broken environment and delivery process into scrum things just went even more problematic. It's not only about Scrum, but I think it's about any other tool and process.
 
