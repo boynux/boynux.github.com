@@ -6,7 +6,7 @@ excerpt: Here I'm going to explain one simple iptables configuration to enable p
 
 ## Introduction
 
-[<img align='right' class="size-medium wp-image-320 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Port Knocking" src="http://www.boynux.com/wp-content/uploads/2013/08/ID-10011403-198x300.jpg" width="198" height="300" />][1] 
+[<img align='right' class="size-medium wp-image-320 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Port Knocking" src="{{ site.url }}/img/port-knocking-1.jpg" width="198" height="300" />][1] 
 Security in Linux servers and desktops has a very important role, when it comes to security what's immediately comes into mind is the Internet and network security. If your box is connected directly to the public Internet or Intranet network, it means that you don't have much control over what malicious attackers can send to your network, what you can do is to protected and prevent all these threats to reach your servers and create bullet proof security guard to to be protected. 
 
 In recent years many different systems including hardware and software have developed to help enterprises protect their assets and data from attackers and all those systems are doing well, but not always an expensive enterprise solution is the best choice, sometimes a fairly simple configuration in your server is enough to protect your from some attacks. 
@@ -74,4 +74,4 @@ Update 28-08-2013: Peter (from LinkedIn network) kindly shared these two useful 
 + <a href="http://www.microhowto.info/howto/implement_port_knocking_using_iptables.html " target="_blank">A sequential port knocking implementation using iptables</a>
 + <a href="http://www.zeroflux.org/projects/knock/" target="_blank">`knockd` project, which is actually an interface to iptables to implement port knocking</a> 
 
-[1]: http://www.boynux.com/wp-content/uploads/2013/08/ID-10011403.jpg
+[1]: {{ site.url }}/img/port-knocking-1.jpg
