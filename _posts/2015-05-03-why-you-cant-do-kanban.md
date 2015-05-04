@@ -7,7 +7,7 @@ title: Why you can't do Kanban!
 excerpt: Kanban is a tool not a process. You can use Kanban to visualize your process and collect metrics about your process health. But you can't "Do Kanban"
 ---
 
-[<img src="{{ site.url }}/img/kanban-training-320x83.jpg" alt="Kanban training" align="right" />][1]
+[<img src="{{ site.url }}/img/kanban-training-320x83.jpg" alt="Kanban training" />][1]
 
 Last week I've got a chance attending to Kanban training session conducted by [*Marcus Hammarberg*][2]. Coauthor of the book [*Kanban in Action*][3].
 
