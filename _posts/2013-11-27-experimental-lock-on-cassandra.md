@@ -6,7 +6,7 @@ excerpt: How to create an experimental Cassandra distributed lock system to be a
 
 ## Intro 
 
-[<img align='right' class="wp-image-438 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Cassandra Lock" src="http://www.boynux.com/wp-content/uploads/2013/11/chef-says-okay-clip-art-300x296.png" width="300" height="296" />][1]
+[<img align='right' class="wp-image-438 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Cassandra Lock" src="{{ site.url }}/img/chef-says-okay-clip-art-300x296.png" width="300" height="296" />][1]
 [Cassandra][3] is my favourite column oriented data store, I've decided to create a simple Cassandra lock system to be able to do synchronised updates on Cassandra, I hear you say there are several DLMs like Zookeeper or Memcached can be implemented as a simple locking system, but I like a solution purely based on Cassandra itself. After lots of surfing on the net I came up with nothing! absolutely nothing! well, I created one (better to say experimented). 
 
 ## Disclaimer 
@@ -51,7 +51,7 @@ Well, that's all for now, thank you for reading this up to here :-) and please l
 + [http://en.wikipedia.org/wiki/Lamport%27s_bakery_algorithm][5] 
 + [http://thobbs.github.io/phpcassa/][6]
 
- [1]: http://www.boynux.com/wp-content/uploads/2013/11/chef-says-okay-clip-art.png
+ [1]: {{ site.url }}/img/chef-says-okay-clip-art-.png
  [2]: https://github.com/boynux/Cassandra-Bakery "Cassandra Bakery lock implementation"
  [3]: http://cassandra.apache.org/ "Cassandra"
  [4]: http://wiki.apache.org/cassandra/Locking "Locking"
