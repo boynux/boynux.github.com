@@ -8,7 +8,7 @@ category: methodologies
 
 ### What is Iterative model:
 
-<img src='http://upload.wikimedia.org/wikipedia/commons/3/39/Iterative_development_model.svg' width='318' align='right' />
+<img src='{{ site.url }}/iterative_and_incremental_development.svg' title="Iterative and Flow model" alt="Iterative and Flow model" width='318' align='right' />
 
 Most of common development methods in agile are known as [*Iterative models*][1]. Those methods break features into small stories and work happens within *iterations* with minimal planning. These minimal plans are based on product backlog which is considered part of a larger plan (which may not even exists) and usually happens at the beginning of each iteration.
 
@@ -79,13 +79,13 @@ The exceptional method which works best with flow and can visualize it amazingly
 
 ### What to choose?
 
-Well, there are pros and cons with both models. But in general if you require rapid feature releases and short release cycles (hours?) then Flow model is a good choice. Bit iterative model fits the products that need to release certain features at once and time to market is not as important (weeks?). If this's your requirement then iterative model is a better choice.
+Iterative and Flow model, there are pros and cons in both of them. But in general if you require rapid feature releases and short release cycles (hours?) then Flow model is a good choice. Bit iterative model fits the products that need to release certain features at once and time to market is not as important (weeks?). If this's your requirement then iterative model is a better choice.
 
 What do you think about these methods? If you have any experience with any of them please leave your comments below or tweet me.
 
 <small>Image from WikiPedia</small>
 
-[1]: http://en.wikipedia.org/wiki/Iterative_and_incremental_development
+[1]: {{ site.url }}/iterative_and_incremental_development.svg
 [2]: http://en.wikipedia.org/wiki/Agile_software_development
 [3]: http://en.wikipedia.org/wiki/Scrum_%28software_development%29
 [4]: http://en.wikipedia.org/wiki/Lean_software_development#See_the_whole
