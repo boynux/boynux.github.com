@@ -8,7 +8,7 @@ category: methodologies
 
 ### What is Iterative model:
 
-<img src='{{ site.url }}/img/iterative_and_incremental_development.svg' title="Iterative and Flow model" alt="Iterative and Flow model" width='318' align='right' />
+<img src='{{ site.url }}/img/iterative_and_incremental_development.png' title="Iterative and Flow model" alt="Iterative and Flow model" width='318' align='right' />
 
 Most of common development methods in agile are known as [*Iterative models*][1]. Those methods break features into small stories and work happens within *iterations* with minimal planning. These minimal plans are based on product backlog which is considered part of a larger plan (which may not even exists) and usually happens at the beginning of each iteration.
 
@@ -85,7 +85,7 @@ What do you think about these methods? If you have any experience with any of th
 
 <small>Image from WikiPedia</small>
 
-[1]: {{ site.url }}/img/iterative_and_incremental_development.svg
+[1]: {{ site.url }}/img/iterative_and_incremental_development.png
 [2]: http://en.wikipedia.org/wiki/Agile_software_development
 [3]: http://en.wikipedia.org/wiki/Scrum_%28software_development%29
 [4]: http://en.wikipedia.org/wiki/Lean_software_development#See_the_whole
