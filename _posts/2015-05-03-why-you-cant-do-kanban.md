@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-tags: kanban scrum marcus_hammarberge
+tags: kanban scrum marcus_hammerberge
 category: methodologies
 title: Why you can't do Kanban!
 excerpt: Kanban is a tool not a process. You can use Kanban to visualize your process and collect metrics about your process health. But you can't "Do Kanban"
@@ -9,7 +9,7 @@ excerpt: Kanban is a tool not a process. You can use Kanban to visualize your pr
 
 [<img src="{{ site.url }}/img/kanban-training-320x83.jpg" alt="Kanban training" />][1]
 
-Last week I've got a chance to attend to Kanban training session conducted by [*Marcus Hammarberg*][2]. Coauthor of the book [*Kanban in Action*][3].
+Last week I've got a chance to attend to Kanban training session conducted by [*Marcus Hammerberg*][2]. Coauthor of the book [*Kanban in Action*][3].
 
 He started with a very simple but effective game which helped us to understand how to collect metrics about our process and how minor changes can have a huge impact in the final results. And then he went through some key principals of Kanban. Followed by more details about Kanban by asking some questions about what we are currently doing and our processes. And finally we had a retrospective. Whole training was a 3 day session.
 
@@ -38,4 +38,4 @@ That's all for now. If you think it's interesting to know more about Kanban, go 
 
 [1]: {{ site.url }}/img/kanban-training.jpg
 [2]: http://www.marcusoft.net/
-[3]: http://www.manning.com/hammarberg/
+[3]: http://www.manning.com/hammerberg/
