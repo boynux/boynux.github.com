@@ -9,6 +9,8 @@ excerpt: With some tricks you can create dynamic pivot reports in Mysql. This is
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
 <img class="alignright" align='right' style="margin-left: 20px; margin-right: 20px;" title="Bar chart" alt="barchart" src="{{ site.url }}/img/barchart-300x171.png" width="300" height="171" />
+<br />
+
 Honestly, one of nice feature that I know from MSSQL and missing in MySQL is PIVOT, it's very handy when generating pivot report from grouped data. Just imagine you have polling system in your website and you want to show the result in bar chart, like this:
 
 <div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
