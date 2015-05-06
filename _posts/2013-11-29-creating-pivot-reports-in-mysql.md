@@ -164,7 +164,5 @@ In addition it is `Stored Procedure` and you can add inputs like `question ID`  
 
 Final note: Thank you and I hope you enjoyed reading it much as I enjoyed writing and I would be very happy to hear your opinion and comments about this article. 
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> </div>
-<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
