@@ -102,7 +102,7 @@ Please note that the following IP (virtual IP) could be any IP. This is entry po
 
 Now if you try to open that IP (virtual IP) in your browser or with curl. If you refresh your system the hostname will change.
 
-What to now more about Docker networking? [Advanced Docker networking][4]
+What to know more about Docker networking? [Advanced Docker networking][4]
 
 To stop the demo just press ctrl-c as instructed. It'll clean-up everything.
 For more details you can see code. It's very simple and easy to understand.
