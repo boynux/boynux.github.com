@@ -37,9 +37,9 @@ $ curl http://get.docker.com | sh
 $ sudo usermod -aG docker $USER
 {% endhighlight %}
 
-Now re-login to your ssytem.
+Now re-login to your system.
 
-2. We need IPV kernel module on your **Docker Host** machines. In order to install that in Ubuntu issue the following command:
+2. We need IPVS kernel module on your **Docker Host** machine. In order to install that in Ubuntu issue the following command:
 
 {% highlight bash linenos %}
 $ sudo apt-get install ipvsadm
@@ -95,12 +95,14 @@ $ docker build -t boynux:ipvs .
 #### Running the demo
 
 Now to run the whole setup issue the following command:
-Please note that the following IP could be any IP. This is entry point to load balancer. Just make sure it's not within your computer or Docker subnet.
+Please note that the following IP (virtual IP) could be any IP. This is entry point to load balancer. Just make sure it's not within your computer or Docker subnet.
 
     $ cd docker-load-balancer
     $ ./run 172.20.10.1
 
-Now if you try to open that IP (above IP) in your browser or with curl. If you refresh your system the hostname will change.
+Now if you try to open that IP (virtual IP) in your browser or with curl. If you refresh your system the hostname will change.
+
+What to now more about Docker networking? [Advanced Docker networking][4]
 
 To stop the demo just press ctrl-c as instructed. It'll clean-up everything.
 For more details you can see code. It's very simple and easy to understand.
@@ -110,3 +112,4 @@ Any questions? Please leave comments.
 [1]: {{ site.url }}/load-balancing-mthods
 [2]: http://docker.com
 [3]: http://www.linuxvirtualserver.org/index.html
+[4]: {{ site.url }}/advanced-docker-networking
