@@ -63,7 +63,7 @@ Let's give the NIC we are going to create a name (can be any unique name):
 
     $ VNET="vnet${DID:0:8}"
 
-The following commands creates a new namespace for our container process, and attached this new interface to that process namespace. So it becomes visible to our container.
+The following commands create a new namespace for our container process, and attache this new interface to that namespace. So it becomes visible to our container.
 
     # Create a new namespace
     $ sudo mkdir -p /var/run/netns
@@ -73,7 +73,7 @@ The following commands creates a new namespace for our container process, and at
     $ sudo ip link add $VNET type dummy
     $ sudo ip link set $VNET netns $DPID
 
-Now it's time to configure our new NIC. `iproute2` tool chain has a subset of commands that executes networking commands in specific namespaces. That's `ip netns exec`.
+Now it's time to configure our new NIC. `iproute2` tool chain has a subset of commands that execute networking commands in specific namespaces. That's `ip netns exec`.
 
 <div class="ads"> 
     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
@@ -89,7 +89,7 @@ Now it's time to configure our new NIC. `iproute2` tool chain has a subset of co
     $ sudo ip netns exec $DPID ip addr add "172.16.0.10/24" dev eth1
     $ sudo ip netns exec $DPID ip rout add "172.16.0.10" dev eth1 scope link
 
-`127.16.0.10/24` is the IP I set for this interface and I named it `eth1`. If all above commands where successful you can check to see if this new NIC is actually attached to your container?
+`127.16.0.10/24` is the IP I set for this interface and I name it `eth1`. If all of the above commands executed successfuy you can check to see if this new NIC is actually attached to your container?
 
     $ sudo docker exec $DID ip addr
 
@@ -133,7 +133,7 @@ This way we can communicate between our host and container in isolated tunnel. I
 
 *kill previous container with `sudo docker kill $DID` if you didn't.*
 
-Follow previous scenario steps up to to the command that I commented as `# Attach new dummy interface to container process namespace.`. But don't execute the following commands.
+Follow previous scenario steps up to to the command that I commented as `# Attach new dummy interface to container process namespace.`.
 
 New we create NIC as a tunnel interface:
 
@@ -155,7 +155,7 @@ To add `vnet01` to container you should follow exactly the previous example comm
     $ sudo ip netns exec $DPID ip addr add "192.168.6.2/24" dev eth1
     $ sudo ip netns exec $DPID ip rout add "192.168.6.2" dev eth1 scope link
 
-Now let's try to see it really works: 
+Now let's try to see if it really works: 
 
     # Ping container new IP
     $ ping 192.168.6.2
@@ -183,7 +183,7 @@ And: `sudo docker exec $DID ip addr` shows:
 
 ### Enable Internet access
 
-That's very simple, guess! Right, just enable masquerading and IP forwarding. Should IP explain how?
+That's very simple, guess! Right, just enable masquerading and IP forwarding. Should I explain how?
 
 ### Make it a bridge
 
@@ -199,8 +199,8 @@ We can just create a bridge on host machine and attach host NIC ie. `vnet01` to 
     $ brctl addbr br01
     $ brctl addif br01 vnet01
 
-It's ready. Would you like to connect your container to any physical network? Right, add physical NIC to the same bridge. But be careful you're exposing your container to external network (security wise).
+It's ready. Would you like to connect your container to any physical network? Right, add physical NIC to the same bridge. But be careful you're exposing your container to the external network (security wise).
 
-Did you find it informative? Leave your comments below (or share it to others).
+Did you find it informative? Leave your comments below (or share it with others).
 
 [1]: {{ site.url }}/load-balancing-in-docker
