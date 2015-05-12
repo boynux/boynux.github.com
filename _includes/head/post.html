@@ -12,7 +12,7 @@
         <meta name="keywords" content="{{ keywords_tag_names }}" />
 
 		{% capture description %}{{ page.excerpt | replace: '"', '' }}{% endcapture %}
-        <meta name="description" content='{{ description }}' />
+        <meta name="description" content="{{ description }}" />
 		{% include head/common/common.html %}
 	</head>
 {% endcapture %}
