@@ -93,5 +93,6 @@ The good thing is, if user changes her password, it automatically invalidates th
 
 I can't think of how many other possibilities are laid in that. If you've ever used something similar or you could think of any other possibility please leave a comment.
 
+<sup>Image from essentialsql.com website</sup>
 
 [1]: http://dev.w3.org/html5/webstorage/
