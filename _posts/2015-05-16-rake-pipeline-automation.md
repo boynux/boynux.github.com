@@ -10,7 +10,7 @@ category: Devops
 
 <img width='160' src="{{ site.url }}/img/ruby-logo.png" alt="How to use Rake in build pipeline automation." title="How to use Rake in build pipeline automation." align="right" />
 
-Are you currently using *build pipelines* or *continues integration* servers? If yes, before continue to read the rest let's take a look at your jobs.Assuming you are using PHP if you see something like this:
+Are you currently using *build pipelines* or *continues integration* servers? If yes, before continue to read the rest let's take a look at your jobs.Assuming you are using PHP if you have something like this:
 
     Job Name: Build
     Command: composer install --no-dev
@@ -22,7 +22,7 @@ Are you currently using *build pipelines* or *continues integration* servers? If
 
 It means that you're not using any task management tool. Why should I use it, you ask? Well, most of developer who are working with Java, C, C++, .. are quite familiar with build tools and task managements. But it's less known in interpreted languages. Those languages definitely need such tools, to facilitate build process, which is usually a chain of complex tasks. These tasks mostly should be executed in particular order to produce the desired artifact.
 
-For example, in `C` language (which most of you did some small coding with that) in order to build an executable artifact, first we need to compile all source codes into objects (this process by itself is actually two tasks but usually compilers do it in one run). Then you need to call linker to like objects to proper libraries (statically or dynamically). In more complex build process, one may need to build several other libraries too.
+For example, in `C` language (which most of you did some small coding with that) in order to build an executable artifact, first we need to compile all source codes into objects (this process by itself is actually two tasks but usually compilers do it in one run). Then you need to call linker to link objects to proper libraries (statically or dynamically). In more complex build process, one may need to build several other libraries too.
 
 In reality, if you want to manually do all these jobs a few problems arises:
 
@@ -36,7 +36,7 @@ In reality, if you want to manually do all these jobs a few problems arises:
   <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
-These are a few of problems that you might have. But I would like to draw your attention to item number "3". That has a special meaning. If you change a single file in your project you may not need to compile and link all files not build your artifact again, rather in most cases you'll need to compile just a few files that has dependency to modified file. And then in case of dynamically linked libraries you may only need to link that particular affected library, not the whole project.
+These are a few of problems that you might have. But I would like to draw your attention to item number "3". That has a special meaning. If you change a single file in your project you may not need to compile and link all files to build your artifact again, rather in most cases you'll need to compile just a few files that have dependencies to the modified file. And then in case of dynamically linked libraries you may only need to link that particular affected library, not the whole project.
 
 But why should I care? I'm not compiling PHP or Ruby!? You're right! But I have a few reasons that might be interesting for you to use task managements in those languages too.
 
@@ -50,11 +50,13 @@ First of all, it's not only about compiling and linking, these tools can handle 
 * Managing dependencies.
 * And few more ...
 
+The other obvious reason is the build pipelines and CI jobs. By using tools such as Rake you have more standard and clean jobs. Also developers and automation servers use exactly same method to build, test and deploy projects. Which helps us to avoid mistakes and uncaught bugs due to differences in build, test or deploy.
+
 So if you are not using them yet, I hope this tiny how to helps to get started.
 
 ### Tools
 
-There are quite a few task management tools out there and more or less you can choose anyone you like. They all try to solve a very similar problem which is Manging Tasks. To name a few:
+There are quite a few task management tools out there and more or less you can choose anyone you like. They all try to solve a very similar problem which is *Manging Tasks*. To name a few:
 
 * Make
 * Ant (or nAnt)
@@ -64,9 +66,13 @@ There are quite a few task management tools out there and more or less you can c
 * [Rake][1]
 * ...
 
-Perhaps you already know `make`. That's one of the oldest out there. Almost every C source code that I worked with got one. The rest except `grunt` and `rake` are very popular in `Java`. `grunt` is very popular among `javascript` community. And finally `rake` my favorite which I'm going to explain here.
+Perhaps you already know `make`. That's one of the oldest out there. Almost every C source code that I worked with got one. The rest except `grunt` and `rake` are very popular in `Java`. `grunt` is very popular across `javascript` communities. And finally `rake` my favorite which I'm going to explain here.
 
 Why `rake`? Because it's very easy to use. Provides almost every thing that you may need to get the job done. Written in `Ruby` and because it uses *internal Ruby DSL* you can directly use full ruby power in tasks if you like to.
+
+Here is an interesting [article][2] about Rake by *Martin Fowler*. In that article he explains what is build tool and details of how to use it with lots of good examples.
+
+But here my focus is mostly on *Automation* rather than *Rake* itself.
 
 ### Getting started
 
@@ -196,3 +202,4 @@ I prepared a short video to show how it works in action:
 In next post I'll go through next stage which is `Unit test` stage. Meanwhile here is short video of above `Rakefile` in action.
 
 [1]: http://en.wikipedia.org/wiki/Rake_%28software%29
+[2]: http://martinfowler.com/articles/rake.html
