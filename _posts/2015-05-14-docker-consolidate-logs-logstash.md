@@ -14,9 +14,9 @@ category: Devops
 <img src="{{ site.url }}/img/docker-logo.png" width="161" alt="How to pack Logstash forwarder in Docker containers" title="How to pack Logstash forwarder in Docker containers" />
 </span>
 
-Using Docker eases deployment pains and every sysadmin and devops that I know - including myself - enjoys working with containers. But when it comes to production, we all love to consolidate logs from all over our infrastructure into a single accessible location. The first obvious choice for such a stack is [Elastc][1] + [Logstash][2] + [Kibana][3] (ELK).
+Using Docker eases deployment pains and every sysadmin and devops I know - including myself - enjoys working with containers. But when it comes to production, we all love to consolidate logs from all over our infrastructure into a single accessible location. The first obvious choice for such a stack is [Elastc][1] + [Logstash][2] + [Kibana][3] (ELK).
 
-But when dealing with docker it's a big pain. There are numerous ways developed to solve this issue, and recently Docker by releasing [version 1.6][4] introducehd *Logging Driver*. Which solves at least some of these problems.
+But when dealing with docker it's a big pain. There are numerous ways developed to solve this issue, and recently Docker by releasing [version 1.6][4] introduced *Logging Driver*. Which solves at least some of these problems.
 
 Here I'm going to review a few common ways to consolidate Docker logs using [Logstash Forwarder][5].
 
@@ -28,7 +28,7 @@ Here I'm going to review a few common ways to consolidate Docker logs using [Log
 
 ### Possible ways
 
-I just list couple of ways we can send logs to ELK stack using Logstash forwarder, these are popular ones:
+I just list a couple of ways we can send logs to ELK stack using Logstash forwarder, these are popular ones:
 
 * Mounted volumes
 * Pipe-in apps std* to remote Syslog
@@ -38,15 +38,15 @@ I just list couple of ways we can send logs to ELK stack using Logstash forwarde
 * [Logspout][6]
 * Commercial solutions
 
-There of more ways too, but I guess they may fall in one of above categories. Now let's find out what is pros and cons with every solution.
+There are other methods too, but I guess they may fall into one of the above categories. Now let's find out what is pros and cons with each solution.
 
 #### Mounted volumes
 
 Obviously it's the easiest and most common! If you use Google you'll find out this is one of most recommended ways, as it's also mentioned in a [blog post][8] by Docker themselves.
 
-How it works, in your app, instead of write log messages to std* you write them into a file. Then you mount a volume when running containers with `-v` to the path in which your application is writing logs.
+How it works, in your app, instead of writing log messages to std* you write them into a file. Then you mount a volume when running containers with `-v` to the path in which your application is writing logs.
 
-Let's imagine, your app is writing logs into `/foo/app.log`. Docker command may look like this:
+Let's imagine, your app writes logs into `/foo/app.log`. Docker command may look like this:
 
     docker run -t -v /var/log/app:/foo my-app-image
 
@@ -69,9 +69,9 @@ What are the cons?
 * It violates 12-Factor app [rule of logging][9].
 * Forwarder configuration depends on apps file names.
 
-Among all the "manging log files within application" is the worst. Because application doesn't need to handle that complexity specially in muti-threaded applications. But if your app currently storing logs inside files. Shouldn't be a bug deal.
+Among all "manging log files by application itself" is the worst. Because application doesn't need to handle that complexities, specially in multi-threaded applications. But if your app is currently storing logs inside files. Shouldn't be a bug deal.
 
-Note: I've seen around the net some suggestion about writing application logs to stdout and then piping (or redirecting) them to a file. I don't recommend that for a very simple reason. If the application your piping to (or redirection) dies, the application will get SIGPIP and usually dies. Or at least blocks until there's another process reading from the pipe. Try to avoid that.
+Note: I've seen around the net some suggestion about writing application logs to stdout and then piping (or redirecting) them to a file. I don't recommend that for a very simple reason. If the application your piping to (or redirecting) dies, your application will get SIGPIP and usually dies. Or at least blocks until there's another process to read from the pipe. Try to avoid that.
 
 #### Pipe-in apps std* to remote Syslog
 
@@ -177,9 +177,14 @@ Cons:
 * Complex to deploy (extra dependency)
 * Depends on Docker internals ans API
 * Not safe and consistent
- 
 
-That's pretty much all. If you any other solution that I've missed here, I'd like to know about it. Or if you're using any of these methods and having a good experiences with that please leave your comments below.
+#### Conclution
+
+All methods that explained here are very popular and whether it fits a particular project varies from a project to another. I put together this post here so that when I decide to choose an approach I know about all its consequences, and I hope it;s useful for you too.
+
+Of course all this information will change during the time and one method might become more preferable to another. I'll try to keep this post updated as much as I can.
+
+That's pretty much all. If you know any other solution that I've missed here, I'd like to know about it. Or if you're using any of these methods and having a good experiences with that please leave your comments below.
 
 
 [1]: https://www.elastic.co/
