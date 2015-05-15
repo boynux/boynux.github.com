@@ -79,7 +79,7 @@ Well, this clear that if you push your code as soon as you can, you'll get feedb
 
 The other fact is, if you push regularly you're actually experimenting your changes. This is  what "Relentless Improvement" is about. So don't let your code stays over night (which I did today :) ). If you cannot push it at the end of the day, delete it (seriously)!
 
-**4. Always push to *master* branch.**
+**5. Always push to *master* branch.**
 
 *I don't want to start a debate here again. So don't leave comments about how branching and feature branching is good. If you think it's good use it.*
 
@@ -100,7 +100,7 @@ The other issue with branching, is that it's affecting collaboration, one of imp
 <br />
 
 This falls into *Relentless Improvement*, by pushing small part of code which is working and potentially can go into production, you're gradually improving your product toward the main goal, which is the work item you're working on. By letting CI server run all sort of tests that you have, you're experimenting your changes in - close to - production environment too, which is fantastic. If something goes wrong, you catch it as soon as possible.
-**5. Let *CD* server do the hard job**
+**6. Let *CD* server do the hard job**
 
 In Lean, there is no place for manual deployment. Pipelines are there to break by developers. To do experiments, and to deliver as fast as possible. You just write enough code to do the job. No less, no more!
 
