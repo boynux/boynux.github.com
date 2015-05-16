@@ -42,7 +42,7 @@
 			}
 
 			post_div = post_div + '<br><div class="row">';
-			post_div = post_div + '<small><div class="span3 offset1">';
+			post_div = post_div + '<small><div class="col-md-3 col-md-offset-1">';
 
 			{% if site.font_awesome.enabled %}
 				post_div = post_div + '<i class="icon-user"></i> ';
@@ -58,7 +58,7 @@
 			{% if site.font_awesome.enabled %}
 				post_div = post_div + '<i class="icon-pencil"></i> ';
 			{% endif %}
-			post_div = post_div + 'Published on ' + post.date + '.<br></div><div class="span3">';
+			post_div = post_div + 'Published on ' + post.date + '.<br></div><div class="col-md-3">';
 
 			if (post.category !== null && post.category.length > 0) {
 				{% if site.font_awesome.enabled %}
@@ -96,7 +96,7 @@
 				post_div = post_div + '<br>';
 			}
 
-			post_div = post_div + '</div><div class="span1"></div></small></div>';
+			post_div = post_div + '</div><div class="col-md-1"></div></small></div>';
 			post_div = post_div + '</div></div>';
 
 			return post_div;

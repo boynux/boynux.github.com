@@ -1,6 +1,6 @@
 {% assign navbar_pages_html = null %}
 {% capture navbar_pages_html %}
-	<ul class="nav pull-right">
+	<ul class="nav navbar-nav pull-right">
 		{% for pages_order in (0..100) %}
 			{% for pages_p in site.pages %}
 				{% if pages_p.order == pages_order %}

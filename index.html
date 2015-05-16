@@ -7,7 +7,7 @@ notice :
 
 {% assign index_page_html = null %}
 {% capture index_page_html %}
-	{% for p in paginator.posts %}
+5{% for p in paginator.posts %}
 		<div class="ghpb-post">
 			<div class="well ghpb-well-outline">
 				{% if p.title %}
@@ -39,7 +39,7 @@ notice :
 
 				<div class="row">
 					<small>
-						<div class="span3 ">
+						<div class="col-md-6">
 							{% if site.font_awesome.enabled %}
 								<i class="icon-user"></i> 
 							{% endif %}
@@ -75,7 +75,7 @@ notice :
 							{% endif %}
 						</div>
 
-						<div class="span3">
+						<div class="col-md-6">
 							{% if p.category.size > 0 %}
 								{% if site.font_awesome.enabled %}
 									<i class="icon-folder-open"></i> 
@@ -127,32 +127,49 @@ notice :
 				</div>
 			</div>
 		</div>
-		<br>
-		<br>
 	{% endfor %}
 
-	<div class="pagination">
+  <nav>
 		<div class="row">
-			<div class="span2 offset1">
-				{% if paginator.previous_page %}
-					{% if paginator.previous_page == 1 %}
-						<a href="{{ site.url }}" class="previous">Previous</a>
-					{% else %}
-						<a href="{{ site.url }}/page{{paginator.previous_page}}" class="previous">Previous</a>
-					{% endif %}
-				{% endif %}
-			</div>
-
-			<div class="span2">
-				<span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
-			</div>
-
-			<div class="span2">
-				{% if paginator.next_page %}
-					<a href="{{ site.url }}/page{{paginator.next_page}}" class="next">Next</a>
-				{% endif %}
-			</div>
-		</div>
-	</div>
+      <div class="col-md-12">
+        <ul class="pager">
+          <li>
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <a href="{{ site.url }}" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            {% else %}
+              <a href="{{ site.url }}/page{{paginator.previous_page}}"  aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            {% endif %}
+          {% endif %}
+          </li>
+          {% for i in (1..paginator.total_pages) %}
+            {% capture page_index_tag %}
+              {% if i == 1 %}
+              <a href="{{ site.url }}">{{ i }}</a>
+              {% else %}
+              <a href="{{ site.url }}/page{{ i }}">{{ i }}</a>
+              {% endif %}
+            {% endcapture %}
+            {% if paginator.page == i %}
+          <li class="active">{{ page_index_tag }}</li>
+            {% else %}
+          <li>{{ page_index_tag }}</li>
+            {% endif %}
+          {% endfor %}
+          <li>
+          {% if paginator.next_page %}
+            <a href="{{ site.url }}/page{{ paginator.next_page }}" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          {% endif %}
+          </li>
+        </ul>
+      </div>
+    </div>
+	</nav>
 {% endcapture %}
 {{ index_page_html | remove:'	' }}
