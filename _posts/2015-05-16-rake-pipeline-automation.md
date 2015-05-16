@@ -2,7 +2,7 @@
 layout: post
 title: How to use Rake in build pipeline automation.
 excerpt: Rake is a powerful and easy to use task management written in Ruby. Let's see how we can use Rake in build pipelines.
-tags: Continues_Delivery Continues_Integration Rake Ruby
+tags: Continues_Delivery Continues_Integration Rake Ruby PHP
 category: Devops
 ---
 
@@ -199,7 +199,8 @@ I prepared a short video to show how it works in action:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FHUr0HO_Gqc" frameborder="0" allowfullscreen></iframe>
 
-In next post I'll go through next stage which is `Unit test` stage. Meanwhile here is short video of above `Rakefile` in action.
+In [next post][3] I'll go through next stage which is `Unit test` stage. Meanwhile here is short video of above `Rakefile` in action.
 
 [1]: http://en.wikipedia.org/wiki/Rake_%28software%29
 [2]: http://martinfowler.com/articles/rake.html
+[3]: {{ site.url }}/rake-pipeline-automation-part-2
