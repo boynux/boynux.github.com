@@ -1,0 +1,15 @@
+---
+layout:
+---
+ 
+/* Add your includes. */
+ 
+{% include css/bootstrap.min.css %}
+{% include css/bootstrap-submenu.css %}
+{% include css/gh-pages-blog.css %}
+{% if site.font_awesome.enabled %}
+  {% include css/font-awesome.min.css %}
+{% endif %}
+{% if site.syntax_highlighting.enabled %}
+  {% include css/syntax.css %}
+{% endif %}
