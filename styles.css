@@ -4,7 +4,6 @@ layout: nil
  
 /* Add your includes. */
  
-{% include css/bootstrap.min.css %}
 {% include css/bootstrap-submenu.css %}
 {% include css/gh-pages-blog.css %}
 {% if site.font_awesome.enabled %}
