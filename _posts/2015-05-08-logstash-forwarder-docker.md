@@ -38,22 +38,22 @@ Simply store that file in host file system by mounting is as a volume with Docke
 
 Obviously the solution is to mount a directory instead of file itself. And here is a simple Docker file that does this:
 
-  FROM marvambass/oracle-java8
+    FROM marvambass/oracle-java8
 
-  RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys 46095ACC8548582C1A2699A9D27D666CD88E42B4 \
-      && echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' | tee /etc/apt/sources.list.d/logstashforwarder.list \
-      && apt-get update; apt-get install -y logstash-forwarder
+    RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys 46095ACC8548582C1A2699A9D27D666CD88E42B4 \
+        && echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' | tee /etc/apt/sources.list.d/logstashforwarder.list \
+        && apt-get update; apt-get install -y logstash-forwarder
 
-  ENV PATH /opt/logstash-forwarder/bin:$PATH
+    ENV PATH /opt/logstash-forwarder/bin:$PATH
 
-  COPY entrypoint.sh /
+    COPY entrypoint.sh /
 
-  VOLUME ["/logstash-forwarder-conf", "/certs", /home/logstash]
+    VOLUME ["/logstash-forwarder-conf", "/certs", /home/logstash]
 
-  WORKDIR /home/logstash
+    WORKDIR /home/logstash
 
-  ENTRYPOINT ["/entrypoint.sh"]
-  CMD ["logstash-forwarder", "-config=/etc/logstash-forwarder.conf"]
+    ENTRYPOINT ["/entrypoint.sh"]
+    CMD ["logstash-forwarder", "-config=/etc/logstash-forwarder.conf"]
 
 There are two important points here, in `VOLUME` you can see `/logstash` which is exposed and `WORKDIR` which is pointing to `/logstash`. Here is a complete code in [github][7]. This is actually fork of another [forwarder project][3] with these modifications.
 
