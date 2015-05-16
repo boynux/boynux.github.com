@@ -38,26 +38,23 @@ Simply store that file in host file system by mounting is as a volume with Docke
 
 Obviously the solution is to mount a directory instead of file itself. And here is a simple Docker file that does this:
 
-    FROM marvambass/oracle-java8
+  FROM marvambass/oracle-java8
 
-    RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys 46095ACC8548582C1A2699A9D27D666CD88E42B4
+  RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys 46095ACC8548582C1A2699A9D27D666CD88E42B4 \
+      && echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' | tee /etc/apt/sources.list.d/logstashforwarder.list \
+      && apt-get update; apt-get install -y logstash-forwarder
 
-    RUN echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' > /etc/apt/sources.list.d/logstashforwarder.list
+  ENV PATH /opt/logstash-forwarder/bin:$PATH
 
-    RUN apt-get update; apt-get install -y \
-        logstash-forwarder
+  COPY entrypoint.sh /
 
-    ENV PATH /opt/logstash-forwarder/bin:$PATH
+  VOLUME ["/logstash-forwarder-conf", "/certs", /home/logstash]
 
-    COPY entrypoint.sh /
+  WORKDIR /home/logstash
 
-    VOLUME ["/logstash-forwarder-conf", "/certs", /logstash]
+  ENTRYPOINT ["/entrypoint.sh"]
+  CMD ["logstash-forwarder", "-config=/etc/logstash-forwarder.conf"]
 
-    WORKDIR /home/logstash
-
-    ENTRYPOINT ["/entrypoint.sh"]
-    CMD ["logstash-forwarder", "-config=/etc/logstash-forwarder.conf"]
-    
 There are two important points here, in `VOLUME` you can see `/logstash` which is exposed and `WORKDIR` which is pointing to `/logstash`. Here is a complete code in [github][7]. This is actually fork of another [forwarder project][3] with these modifications.
 
 <div class="ads"> 
@@ -70,9 +67,11 @@ There are two important points here, in `VOLUME` you can see `/logstash` which i
 
 If you want to persist positions of harvested logs in files simply mount `/logstash` to host filesystem.
 
-    docker run -v /var/cache/logstash:/logstash docker-logstash-forwarder ...
+    docker run -v /var/cache/logstash:/home/logstash docker-logstash-forwarder ...
 
 And next time you update image or start a new container for forwarder it'll start harvesting logs from the point it's left them.
+
+**Update: DOCKERFILE has been updated. See [GITHUB][7] commit for more info.
 
 [1]: https://denibertovic.com/post/docker-and-logstash-smarter-log-management-for-your-containers/
 [2]: https://github.com/million12/docker-logstash-forwarder
