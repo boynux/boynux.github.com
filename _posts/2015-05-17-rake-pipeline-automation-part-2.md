@@ -1,5 +1,5 @@
 ---
-layput: post
+layout: post
 title: How to use Rake in build pipeline automation (part II)
 excerpt: Rake is a powerful and easy to use task management written in Ruby. Let's see how we can use Rake in build pipelines. Part II
 tags: Continues_Delivery Continues_Integration Rake Ruby PHP
