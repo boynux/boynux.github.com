@@ -7,7 +7,7 @@ notice :
 
 {% assign index_page_html = null %}
 {% capture index_page_html %}
-5{% for p in paginator.posts %}
+{% for p in paginator.posts %}
 		<div class="ghpb-post">
 			<div class="well ghpb-well-outline">
 				{% if p.title %}
