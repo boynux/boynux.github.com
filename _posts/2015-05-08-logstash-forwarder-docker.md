@@ -73,6 +73,9 @@ And next time you update image or start a new container for forwarder it'll star
 
 **Update: DOCKERFILE has been updated. See [GITHUB][7] commit for more info.
 
+### [Continue on part II][8]
+
+
 [1]: https://denibertovic.com/post/docker-and-logstash-smarter-log-management-for-your-containers/
 [2]: https://github.com/million12/docker-logstash-forwarder
 [3]: https://gowalker.org/github.com/digital-wonderland/docker-logstash-forwarder
@@ -80,5 +83,5 @@ And next time you update image or start a new container for forwarder it'll star
 [5]: https://github.com/elastic/logstash-forwarder/blob/master/registrar.go#L31
 [6]: https://github.com/elastic/logstash-forwarder/blob/4b6c987646bdc199eabf9b8f2f5ad57ff860b28e/registrar_other.go#L10
 [7]: https://github.com/boynux/docker-logstash-forwarder
-
+[8]: {{ site.url }}/logstash-forwader-docker-part-2/
 

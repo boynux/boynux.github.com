@@ -125,7 +125,7 @@ If everything goes well, you'll see a message saying that it has connected to se
 
 Did I missed anything? Please let know by leaving your comments below.
 
-[1]: http://boynux.com/logstash-forwarder-docker/
+[1]: {{ site.url }}/logstash-forwarder-docker/
 [2]: https://github.com/boynux/docker-logstash-forwarder
 [3]: https://www.openssl.org/docs/HOWTO/certificates.txt
 [4]: https://github.com/elastic/logstash-forwarder/blob/master/logstash-forwarder.conf.example
