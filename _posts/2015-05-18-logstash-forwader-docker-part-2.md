@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How use Logstash forwarder in Docker containers (part II)
+title: How to use Logstash forwarder in Docker containers (part II)
 excerpt: A tiny how-to to use Logstash-Forwarder docker image right from Docker HUB. With configuration and basic setup.
 tags: Docker Logstash Lumberjack Container DockerHub
 category: DevOps
