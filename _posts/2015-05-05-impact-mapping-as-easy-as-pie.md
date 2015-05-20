@@ -5,12 +5,12 @@ excerpt: What is Imapact Mapping and how we can use it to deliver a software whi
 tags:
     - impact mappin
     - agile
-    - marcus hammerberge
+    - marcus hammarberge
 category: methodologies
 ---
 
 [<img src="{{ site.url }}/img/impact-mapping-small.jpg" alt="Impact Mapping" align="right" />][3]
-Malaysia's third agile meet-up very well hosted by Nintex Malaysia. All seats booked pretty fast. [*Marcus Hammerberge*][1] was the main speaker.
+Malaysia's third agile meet-up very well hosted by Nintex Malaysia. All seats booked pretty fast. [*Marcus Hammarberge*][1] was the main speaker.
 
 The topic was pretty interesting and new to me. I'm going to jot down some key take aways maybe someone else will find it use full and a starting point to use this powerful strategy.
 
@@ -25,7 +25,7 @@ I worked with different agile teams and in most teams (if not all) the main issu
 
 At first I thought "Hey man, it's gonna to be a complex process to collect all those information and making tons of reports and whatnots!" But it was much easier and natural than I thought. And of course very well pointed by Marcus.
 
-*Marcus Hammerberge* speaker of agile meet-up, nailed down the importance this strategy very well and that was enough to ignite a spark of interest in me to find some resources and study more about it.
+*Marcus Hammarberge* speaker of agile meet-up, nailed down the importance this strategy very well and that was enough to ignite a spark of interest in me to find some resources and study more about it.
 
 *Impact Mapping* is actually name of a book written by *Gojko Adžić* a software delivery consultant. He is also author of several other well known books in software industry.
 
