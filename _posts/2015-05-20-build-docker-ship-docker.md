@@ -83,6 +83,6 @@ The same approach should be taken for other language like PHP or Ruby, with an e
 By doing so, you'll hit two birds with one stone:
 
 1. Production-like environment for build and test
-2. You build agent do not need to have build tools except Docker!
+2. Your build agent/dev box do not need to have build tools except Docker!
 
 [1]: {{ site.url }}/rake-pipeline-automation/
