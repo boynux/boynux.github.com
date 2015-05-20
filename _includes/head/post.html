@@ -1,18 +1,19 @@
 {% assign head_post_html = null %}
 {% capture head_post_html %}
 	<head>
+    <meta name="google-site-verification" content="oMGoWfhSYEhw53Beuh2Zwpll7R-wWqR2mCmimdSnevE" />
 		{% if page.title %}
-			<title>{{ site.name }} - {{ page.title }}</title>
+		<title>{{ site.name }} - {{ page.title }}</title>
 		{% else %}
-			<title>{{ site.name }} - {{ site.description }}</title>
+		<title>{{ site.name }} - {{ site.description }}</title>
 		{% endif %}
 
 		{% assign keywords_tag_names = null %}
 		{% capture keywords_tag_names %}{% for t in page.tags %}{{ t | replace: ' ', '_' }},{% endfor %}{% endcapture %}
-        <meta name="keywords" content="{{ keywords_tag_names }}" />
+    <meta name="keywords" content="{{ keywords_tag_names }}" />
 
 		{% capture description %}{{ page.excerpt | replace: '"', '' }}{% endcapture %}
-        <meta name="description" content="{{ description }}" />
+    <meta name="description" content="{{ description }}" />
 		{% include head/common/common.html %}
 	</head>
 {% endcapture %}
