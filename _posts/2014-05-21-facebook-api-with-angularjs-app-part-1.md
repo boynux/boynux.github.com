@@ -49,7 +49,7 @@ Let's create a Like button, right here. The only thing that we need to do is add
 <facebook-like></facebook-like>
 
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-<script src="{{ site.baseurl }}/js/facebook.js?"></script>
+<script src="https://raw.githubusercontent.com/boynux/AngularFacebook/master/facebook.js" async></script>
 <script language="javascript">
     var app = angular.module ('myFacebookApp', ['bnx.module.facebook']);
 </script> 

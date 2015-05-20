@@ -49,7 +49,8 @@ So, how about Facebook API? What we need to do to initialize? Again according to
         FB.init({ 
             appId : '{your-app-id}', 
             status : true, 
-            xfbml : true 
+            xfbml : true,
+            version: 'v2.3'
         }); 
     }; 
 
@@ -58,11 +59,13 @@ So, how about Facebook API? What we need to do to initialize? Again according to
         if (d.getElementById(id)) { return; } 
 
         js = d.createElement(s); 
-        js.id = id; js.src = "//connect.facebook.net/en_US/all.js";
+        js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js";
         fjs.parentNode.insertBefore(js, fjs); 
     }(document, 'script', 'facebook-jssdk'));
 </script>
 {% endhighlight %}
+
+**Update: all.js deprecated in Facebook API v2.0 and above in favor of sdk.js**
 
 I divided that code into 3 parts to explain what it does. First part is a simple place holder for API to inject scripts and HTML into DOM. The important part is id and should be fb-root. This element must be visible meaning that should not be `display: none;` or `visibility: hidden;` set. 
 
@@ -75,7 +78,8 @@ window.fbAsyncInit = function() {
     FB.init({ 
         appId : '{your-app-id}', 
         status : true, 
-        xfbml : true 
+        xfbml : true,
+        version: 'v2.3'
     }); 
 };
 {% endhighlight %}
@@ -88,7 +92,7 @@ And last part in creating script DOM element to inject Javascript element with F
     if (d.getElementById(id)) { return; } 
 
     js = d.createElement(s); 
-    js.id = id; js.src = "//connect.facebook.net/en_US/all.js";
+    js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs); 
 }(document, 'script', 'facebook-jssdk'));
 {% endhighlight %}
