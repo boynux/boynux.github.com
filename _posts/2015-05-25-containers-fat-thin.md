@@ -57,25 +57,30 @@ Except a few rare cases by using `volumes` and `network` ports you're able to co
 
 This one is very interesting. If you want to debug your application inside docker image you really don't need to run multiple processes inside that. The way docker works (and most other containers) when it starts, simply runs your process inside a kernel namespace. So you can directly access it within host machine. For example:
 
+{% raw %}
     $ ID=$(docker run -d ubuntu /bin/bash -c 'while true; do echo hello world; sleep 1; done')
     $ $PID = $(docker inspect -f '{{.State.Pid}}' $ID)
     $ sudo strace -p $PID
-
+{% endraw %}
 #### **Monitoring**
 
 This one is almost same as above. To monitor a process you just need to monitor container process. You rarely need to access inside container for that matters. Memory, CPU, Load and all that can be monitored from container itself.
 
+{% raw %}
     $ ID=$(docker run -d ubuntu /bin/bash -c 'while true; do echo hello world; sleep 1; done')
     $ $PID = $(docker inspect -f '{{.State.Pid}}' $ID)
     $ sudo cat /proc/$PID/cmdline
+{% endraw %}
 
 #### **Directly modifying containers**
 
 While I see this as a *Container Anti-Pattern* but if it's a requirement you can use Docker `exec` command to achieve that:
 
+{% raw %}
     $ ID=$(docker run -d ubuntu /bin/bash -c 'while true; do echo hello world; sleep 1; done')
     $ $PID = $(docker inspect -f '{{.State.Pid}}' $ID)
     $ docker exec $PID ip add add 192.168.10.1/24 dev eth0
+{% endraw %}
  
 #### **Performance**
 
