@@ -24,7 +24,7 @@ I was using containers only because they were lighter and easier to replicate an
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
-But with docker and its fantastic interface to LXC things start to change. Instead of building the whole `Squashfs` image and mounting `aufs` layers with lots of bash scripts, now you can use a simple API and client to do the whole thing in a very similar way.
+But with Docker and its fantastic interface to LXC things start to change. Instead of building the whole `Squashfs` image and mounting `aufs` layers with lots of bash scripts, now you can use a simple API and client to do the whole thing in a very similar way.
 
 Something else has changed too, Docker by introducing Docker hub and lots of different and ready to use images, advocates an *only one process per container* philosophy. They even sometime later in a blog post mentioned it as a [lean and simple container][3] and discouraged a much more complicated multiprocess containers.
 
@@ -88,9 +88,9 @@ If you're thinking one container is going to use less resources, then you may ne
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
-You may think deploying a single container is much easier than multiple. But considering deployment is not end of the story and you still need to monitor your processes, I would say a little bit more trouble with deployment of multiple containers definitely worth eliminating a lot of overhead of monitoring multiple processes inside one container. Docker by itself can restart your container if the processes (container) dies. So if you can split your processes into separate containers then you can easily let docker take care of its execution. 
+You may think deploying a single container is much easier than multiple. But considering deployment is not end of the story and you still need to monitor your processes, I would say a little bit more trouble with deployment of multiple containers definitely worth eliminating a lot of overhead of monitoring multiple processes inside one container. Docker by itself can restart your container if the process (container) dies. So if you can split your processes into separate containers then you can easily let docker take care of its execution. 
 
-But if you run multiple processes inside a container then you can't use this feature that much. Because if a process dies inside a multiprocess container, Docker has no way to know it. You need another processes inside container like `monit` to handle the failure. And if `monit` dies? Then you might need `init` processes itself or a `cron` job takes that responsibility!
+But if you run multiple processes inside a container then you can't use this feature that much. Because if a process dies inside a multiprocess container, Docker has no way to know it. You need another process inside a container like `monit` to handle the failure. And if `monit` dies? Then you might need `init` process itself or a `cron` job to take that responsibility!
 
 #### **Auditing**
 
@@ -119,9 +119,9 @@ If you're migrating from real VMs or physical servers to containers world, then 
 
 ### Final note
 
-If you're really aiming to use multiple processes inside a container then  I don't recommend to use Docker at all, it's just not meant for such case. I suggest to take a look at [LXC][5] and [OpenVZ][6] solutions and if you just want to experiment you can try [LXD][7] which is not production ready yet, but it's a very powerful. 
+If you're really aiming to use multiple processes inside a container then  I don't recommend to use Docker at all, it's just not meant for such cases. I suggest to take a look at [LXC][5] and [OpenVZ][6] solutions and if you just want to experiment you can try [LXD][7] which is not production ready yet, but it's yet very powerful. 
 
-Those container management tools are designed to provide you a full Linux experiment inside containers and from security aspect they are much more secure than Docker.
+These container management tools are designed to provide you a full Linux experiment inside containers and from security aspect they are much more secure than Docker.
 
 If you're interested to use LXC and looking for a workflow similar to Docker for that you can take a look at [this post][8] which explains how to share the base Linux fs with several containers using [Squashfs][8] and [aufs][9].
 
