@@ -358,9 +358,9 @@ github_projects :
 external_links :
   header : Reading stuff
   links :
-    - link :
-      name : 
-      url: 
+    - link : http://amzn.to/1GgyLck
+      name : Workplace Management
+      url  : http://amzn.to/1GgyLck
 
 
 # These are the Bootstrap settings. These Bootstrap settings will control both
