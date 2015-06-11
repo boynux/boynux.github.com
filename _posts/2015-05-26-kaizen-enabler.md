@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kaizen Enabler
-excerpt: We know all about Kaizen and we know it's a good thing to do. Kaizen is all about continues improvement and how doesn't want to improve its job?What is difficult is how to enable it.
+excerpt: We know all about Kaizen and we know it's a good thing to do. Kaizen is all about continues improvement and who don't want to improve its job? What is difficult is how to enable it.
 tags:
   - Kaizen
   - Agile
