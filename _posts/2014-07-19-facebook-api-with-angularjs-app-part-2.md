@@ -23,7 +23,7 @@ And we need this HTML snippet somewhere in our document body. This directive is 
 We are done! Very simple :) Now we have initialized Facebook API and it's ready to be used.
 
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script> 
-<script src="//localhost:4000/js/facebook.js" async></script>
+<script src="https://raw.githubusercontent.com/boynux/AngularFacebook/master/facebook.js" async=""></script>
 
 <script language="javascript">
 var app = angular.module ('myFacebookApp', ['bnx.module.facebook']);
