@@ -29,9 +29,13 @@ body {
   color: #999999;
 }
 
+.ghpb-post {
+  padding: .2em;
+
+  background: #eaeaea;
+}
+
 .ghpb-post p {
   font-size: larger;
   margin-bottom: 20px;
-
-  background: #eaeaea;
 }

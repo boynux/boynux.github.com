@@ -7,6 +7,13 @@ category: Methodologies
 excerpt: Often mangers and leaders think of a multifunctional teams as a group of people that each individual is a jack of all trades. But it might not have the best outcome for your organization.
 ---
 
+<div class="ads"> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+</div>
+<br />
+
+
 Multifunctional Teams
 ---------------------
 
@@ -36,6 +43,13 @@ Our brains process information differently. That's because we have different kno
 
 There is a high risk that team members in such teams will have a weak sense of safety and more defensive as they might see other team members as a threat. This will negatively influence communication and collaboration. And that's what I clearly observed in many occasions.
 
+<div class="ads"> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+</div>
+<br />
+
+
 ## What can be done
 
 On the other hand I think teams should have individuals with with different expertise and in order to make such teams successful we should pay enough attention to a healthy information flow and effective communication across the team.
@@ -53,5 +67,11 @@ Of course like any other practice there are down sides to this approach as well.
 First problem arises when people don't let others to understand what they are doing and contribute to their work. This type of silos are very critical and other team members should help to break this silos within the team.
 
 It might be harder to take over the responsibility of team members since they are the only expert in that area. Although this can also happen in the other approach as well but in this type of teams it's more significant.
+
+<div class="ads"> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+</div>
+<br />
 
 Interested to share your experience or add something? Please leave a comment below.
