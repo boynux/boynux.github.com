@@ -25,7 +25,7 @@ DevOps movement influenced software industry at large in past few years and trie
 
 Large and complex software broke down into multiple services (or micro-services) with their own individual life cycles. Which makes them easier to manage and understand.
 
-I worked with in both of these cultures, with traditional and more recent approaches. What I observed is that although this new approach is quiet efficient and helpful sometimes it can hurt teams and organizations.
+I had a chance to work in both, with traditional isolated teams and more recent approaches. What I observed is that although this new approach is quite efficient and helpful sometimes it can hurt teams and organizations.
 
 ## Issues:
 
@@ -39,9 +39,9 @@ Even in imaginary situation that everyone is expert at everything, then they wil
 
 We are all biased and we are all obsessed to some degree, about the code quality, testing software, design, infrastructure, agile methodology and etc. Naturally we have different focus points (or favorite subjects) but we have opinions in other areas of expertise too and this creates conflicts.
 
-Our brains process information differently. That's because we have different knowledge, background, culture and a lot diversities than we can think of. If we consider a few experts have access to the information about one subject equally it does not mean they will understand and realize it equally. And in complex situation often they don't. Which means in teams of experts in every subject the understanding and overview will diverge.
+Our brains process information differently. That's because we have different knowledge, background, culture and a lot more diversities than we can think of. If we consider a few experts have access to the information about one subject equally it does not mean they will understand and realize it equally. And in more complex situation often they don't. Which means in teams of jack of all trades the understanding and overview will diverge.
 
-There is a high risk that team members in such teams will have a weak sense of safety and more defensive as they might see other team members as a threat. This will negatively influence communication and collaboration. And that's what I clearly observed in many occasions.
+There is a high risk that team members in such teams will have a weak sense of safety and they are more defensive as they might see other team members as a threat. This will negatively influence communication and collaboration. And that's what I clearly observed in many occasions.
 
 <div class="ads"> 
     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
@@ -56,9 +56,9 @@ On the other hand I think teams should have individuals with with different expe
 
 I noticed in teams with subject matter experts in multiple areas the communication is stronger and understanding of the big picture is more accurate.
 
-Worth noting that having teams with experts in different areas doesn't mean they should not be curious to understand what others are doing,rather they should educate each other and let others learn how to work in other areas.
+Worth noting that having teams with experts in different areas doesn't mean they should not be curious to understand what others are doing, rather they should educate each other and let others learn how to work in other areas as well.
 
-This also give a safe feeling to the team members as they know they are trusted in their strengths and this makes them more open to change, teach other people and get taught.
+This also give the safety feeling to the team members as they know they are trusted in their strengths and this makes them more open to change, teach other people and get taught.
 
 ## What to observe
 
