@@ -68,7 +68,7 @@ That's it, I created two tables to make things a little more complex, because in
 
 	INSERT INTO `answer` VALUES (1,1,'MySQL'),(2,1,'MySQL'),(3,1,'MySQL'),(4,1,'MSSQL'),(5,1,'PostgreSQL'),(6,1,'MySQL'),(9,1,'MySQL'),(10,1,'MySQL'),(11,1,'MSSQL'),(12,1,'PostgreSQL'),(13,1,'MySQL'),(16,1,'MySQL'),(17,1,'MySQL'),(18,1,'MSSQL'),(19,1,'PostgreSQL'),(20,1,'MySQL'),(23,2,'MSSQL'),(29,2,'MySQL'),(30,2,'MySQL'),(31,2,'MySQL'),(32,2,'MySQL'),(33,2,'MySQL'),(34,2,'PostgreSQL'),(35,2,'PostgreSQL'),(36,2,'PostgreSQL'),(52,2,'MSSQL'),(53,2,'MSSQL'),(54,2,'MSSQL'),(55,2,'MSSQL'),(56,2,'MSSQL'),(57,2,'MSSQL'),(58,2,'MySQL'),(59,2,'MySQL'),(60,2,'MySQL'),(61,2,'MySQL'),(62,2,'MySQL'),(63,2,'MySQL'),(64,2,'MySQL'),(65,2,'MySQL'),(66,2,'MySQL'),(67,2,'MySQL'),(68,2,'MySQL'),(69,2,'MySQL'),(70,2,'MySQL'),(71,2,'MySQL'),(72,2,'MySQL'),(73,2,'MySQL'),(74,2,'MySQL'),(75,2,'MySQL'),(76,2,'MySQL'),(77,2,'MySQL'),(78,2,'PostgreSQL'),(79,2,'PostgreSQL'),(80,2,'PostgreSQL'),(81,2,'PostgreSQL'),(82,2,'PostgreSQL'),(83,2,'PostgreSQL');
 
-	INSERT INTO `question` VALUES (1,' Which SQL database do you prefer?'),(2,'Which SQL database will you use in your next project?');
+	INSERT INTO `question` VALUES (1,'Which SQL database do you prefer?'),(2,'Which SQL database will you use in your next project?');
 
 OK, we have same data sample to start. In order to get same result as `PIVOT` in MySQL you must initiate a query like this: 
 
@@ -112,7 +112,7 @@ First I create the number one, I'm going to use `GROUP_CONCAT` and `CONCAT` func
 
 	SELECT
 	    GROUP_CONCAT(
-		CONCAT('SUM(IF(answer='', answer, '',1 ,0)) AS '', answer, '''), 'n'
+		CONCAT("SUM(IF(answer='", answer, "',1 ,0)) AS '", answer, "'"), "\n"
 	    ) INTO @answers
 	FROM (
 	    SELECT DISTINCT answer FROM answer
@@ -128,26 +128,28 @@ The second part is a very simple SQL query and its not something special, but we
 
 Well, now '@query' variable contains exactly the same query that we are looking for. and final step is to find a way to run this query, this is the most simple part we can use `PREPARE` and `EXECUTE` commands. To make it even more easy I create a stored procedure to do all the job: 
 
-	DROP PROCEDURE IF EXISTS pivot_question;
+	DELIMITER ;;
+	DROP PROCEDURE IF EXISTS pivot_question;;
 	CREATE PROCEDURE pivot_question()
 	BEGIN
-	  SELECT
-	    GROUP_CONCAT(
-		CONCAT('SUM(IF(answer='', answer, '',1 ,0)) AS '', answer, '''), 'n'
-	    ) INTO @answers
-	  FROM (
-	    SELECT DISTINCT answer FROM answer
-	  ) A;
+		SELECT
+		  GROUP_CONCAT(
+		CONCAT("SUM(IF(answer='", answer, "',1 ,0)) AS '", answer, "'"), "\n"
+		  ) INTO @answers
+		FROM (
+		  SELECT DISTINCT answer FROM answer
+		) A;
 
-	  SET @query := 
-	    CONCAT(
-	      'SELECT title, ', @answers, 
-	      ' FROM question INNER JOIN  answer ON answer.question_id = question.id  GROUP BY question.id, title'
-	    );
+		SET @query := 
+		  CONCAT(
+		    'SELECT title, ', @answers, 
+		    ' FROM question INNER JOIN  answer ON answer.question_id = question.id  GROUP BY question.id, title'
+		  );
 
-	  PREPARE statement FROM @query;
-	  EXECUTE statement;
-	END;
+		PREPARE statement FROM @query;
+		EXECUTE statement;
+	END;;
+	DELIMITER ;
 
 Voilà, That's it, and if I call `pivot_question` in MySQL I get exactly what I was looking for and in addition if a  new answer added into answer table it will be automatically shown into the result set: 
 
