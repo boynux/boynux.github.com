@@ -10,7 +10,7 @@ category: Devops
 
 <img width='160' src="{{ site.url }}/img/ruby-logo.png" alt="How to use Rake in build pipeline automation." title="How to use Rake in build pipeline automation." align="right" />
 
-In the [first post][1] I explained how to use Rake to automate PHP `composer` dependency management. And avoid running `composer` tasks multiple times if it's already done and there are no changes in `composer.json` and eventually `composer.lock` files.
+In the [first post](/rake-pipeline-automation/) I explained how to use Rake to automate PHP `composer` dependency management. And avoid running `composer` tasks multiple times if it's already done and there are no changes in `composer.json` and eventually `composer.lock` files.
 
 Now let's take one step further. Normally in pipelines in commit stage (or sometimes next stage) there is *unit test* job. Let's see how we can extend our `Rakefile` to handle this job too.
 
