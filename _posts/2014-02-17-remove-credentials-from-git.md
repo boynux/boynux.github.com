@@ -14,7 +14,7 @@ Reviewing the GIT history can easily reveal those information. If you could chan
 
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 _WARNING: ALTERING ANY RCS (INCLUDING GIT) IS HIGHLY DISCOURAGED BECAUSE IT KILLS THE PURPOSE OF RCS, I HIGHLY RECOMMEND TO CHANGE YOUR CREDENTIALS IF POSSIBLE AND LEAVE YOUR RCS HISTORY INTACT._
 
@@ -45,7 +45,7 @@ By using '`filter-branch`' you can alter your GIT history. Common use case of th
 
 to find such a renames/moves. 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 Reference: 
 

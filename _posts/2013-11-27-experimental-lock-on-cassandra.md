@@ -13,7 +13,7 @@ excerpt: How to create an experimental Cassandra distributed lock system to be a
 Disclaimer normally comes at the end of article but, I put it here because, this is PURELY EXPERIMENTAL IMPLEMENTATION AND THIS SOLUTION WAS NOT USED IN PRODUCTION, THIS IS JUST A CRAZY IDEA INTO ACTION. Actually I'm not sure it'll work at all :-) - sigh - If you are looking for something that works please stop reading here and go back to [Google](http://www.google.com?q=distributed lock manager) otherwise you are welcome to test it and improve it. 
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="true"></script>
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 ## Idea 
 The original idea is not mine and you can find it on Apache Cassandra [web site][2] and it uses Lamport's Bakery locking algorithm. You can find more information about that in [Wikipedia][3]. 
@@ -39,7 +39,7 @@ I use two `Column Families`, `Numbers` and `Choosing`. Whenever a process wants 
 ## Implementation 
 I used `PHP` to implement this concept and [PHPCassa][4] library is used to communicate with Cassandra. The column families in Cassandra (ie. `Numbers` and `Choosing`) must be created with consistency level of QUORUM. Both column families have row key and column name as integers and column values as boolean defined. The `PHP` code is available on [GitHub][2]. 
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="rectangle"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 ## Final note 
 Well, that's all for now, thank you for reading this up to here :-) and please leave comments if you have any interesting idea about this. All patch, fixes, improvements are welcomed only on GitHub.

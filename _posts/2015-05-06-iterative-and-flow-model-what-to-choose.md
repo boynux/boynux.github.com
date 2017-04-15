@@ -26,7 +26,7 @@ Iterations are *timeboxed* and typically 2-4 weeks long. These iterations should
 At the end, new features will be demonstrated to stakeholders for feedback. At this point project must be ready for release with these new feature or without. Those not ready to release features might require couple of more iterations to become available for release.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
@@ -58,7 +58,7 @@ Flow is the fundamental part of [*Continues Delivery*][5] and in that each code 
 This method encourages good quality product with minimum waste. It also encourage team work and self discipline within a team. The goal is to deliver valuable software as soon as possible with optimum quality.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="rectangle"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 

@@ -21,7 +21,7 @@ I'm going to cover one of the aspects which used to be a simple tool in any sysa
 ### Docker Networking
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="rectangle"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -42,7 +42,7 @@ First things first, to follow this tutorial you must have `iproute2` and `bridge
 ### First scenario
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -76,7 +76,7 @@ The following commands create a new namespace for our container process, and att
 Now it's time to configure our new NIC. `iproute2` tool chain has a subset of commands that execute networking commands in specific namespaces. That's `ip netns exec`.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -119,7 +119,7 @@ Output of last command from my test looks like this:
 ### Connect it to somewhere
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -191,7 +191,7 @@ We can just create a bridge on host machine and attach host NIC ie. `vnet01` to 
 
 <div class="ads"> 
 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />

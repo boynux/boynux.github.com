@@ -32,7 +32,7 @@ In reality, if you want to manually do all these jobs a few problems arises:
 4. Cleaning up all the mess.
 
 <div style="float: left; margin: 4px;">
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7261521241"> </ins> 
+  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"> </ins> 
   <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
@@ -101,7 +101,7 @@ Let's make it a little bit more practical. You may need to run this command in d
     end
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -134,7 +134,7 @@ How to do it?
 
 
 <div style="float: right; margin: 4px;">
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7261521241"> </ins> 
+  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"> </ins> 
   <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
@@ -191,7 +191,7 @@ Now our pipeline first stage is done. In your commit stage the only thing you ha
 ### Demo time
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 

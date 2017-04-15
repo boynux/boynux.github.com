@@ -21,8 +21,8 @@ I been using SCRUM and working in that kind of environment for 3-4 years, I like
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
-     data-ad-slot="4587256441"
+     data-ad-client="ca-pub-5768423765640512"
+     data-ad-slot="7013600384"
      data-ad-format="horizontal"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -44,8 +44,8 @@ We held a meeting (informal though) and Mr. Scrum start to explain essentially w
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
-     data-ad-slot="4587256441"
+     data-ad-client="ca-pub-5768423765640512"
+     data-ad-slot="7013600384"
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -82,8 +82,8 @@ You ask me what happened to that organization? did they succeed in their project
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
-     data-ad-slot="4587256441"
+     data-ad-client="ca-pub-5768423765640512"
+     data-ad-slot="7013600384"
      data-ad-format="rectangle"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});

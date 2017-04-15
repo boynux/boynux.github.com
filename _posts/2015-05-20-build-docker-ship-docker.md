@@ -33,7 +33,7 @@ These are the few reasons that I figured out to not to use Docker images but Doc
 ### Be careful
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="rectangle"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -69,7 +69,7 @@ Unit test:
 And for acceptance test you can similarly run you app inside a temporary container and by linking that container to an acceptance test container run the test against it.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />

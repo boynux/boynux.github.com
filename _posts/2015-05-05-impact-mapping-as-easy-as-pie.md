@@ -20,7 +20,7 @@ I worked with different agile teams and in most teams (if not all) the main issu
 
 "Impact Mapping" helps business people see a bigger-picture of the project as well. It'll be much easier for them to see how much a particular requirement or feature is going to have an impact. With this vision making decisions and prioritizing requirements we'll be a lot easier.
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
 
 At first I thought "Hey man, it's gonna to be a complex process to collect all those information and making tons of reports and whatnots!" But it was much easier and natural than I thought. And of course very well pointed by Marcus.

@@ -20,7 +20,7 @@ I used to use containers for about 3 years ago to deploy small apps inside LXC C
 I was using containers only because they were lighter and easier to replicate and archive with `squashfs` and `aufs` to manage base images.
 
 <div style="float: left; width: 320px">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="rectangle"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
@@ -41,7 +41,7 @@ But beside all these fights and debates, what we should logically do and how we 
 This is just my thoughts about this concept and I may miss some use cases, so if you see it's so please let me know. I'll be glad to add that to my list. And finally I'm not against fat containers at all but I'm more toward thin containers. So you may find this reasonings a little bit biased as well (Just to be honest).
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -89,7 +89,7 @@ If you're thinking one container is going to use less resources, then you may ne
 #### **Ease of deployment**
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -118,7 +118,7 @@ Another situation would be one process controlling and monitoring other processe
 If you're migrating from real VMs or physical servers to containers world, then it might be easier for your team to just move the whole application into a full Linux container. This is less trouble because the team does not need to learn a lot things at once and moving to containers will be much easier. But I recommend to slowly break your processes to multiple container after successful migration. So you can get the most benefit out of containers.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
