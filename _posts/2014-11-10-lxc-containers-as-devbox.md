@@ -18,7 +18,7 @@ During this time I developed a few good patterns that helped me to use container
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-5768423765640512"
+     data-ad-client="ca-pub-7360583392867579"
      data-ad-slot="4587256441"
      data-ad-format="horizontal"></ins>
 <script>
@@ -105,7 +105,7 @@ Now continue setting up your basic requirements, for instance let's setup a simp
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-5768423765640512"
+     data-ad-client="ca-pub-7360583392867579"
      data-ad-slot="4587256441"
      data-ad-format="auto"></ins>
 <script>
@@ -185,7 +185,7 @@ And done! In a few seconds you have your new container ready and setup! Now just
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-5768423765640512"
+     data-ad-client="ca-pub-7360583392867579"
      data-ad-slot="4587256441"
      data-ad-format="rectangle"></ins>
 <script>

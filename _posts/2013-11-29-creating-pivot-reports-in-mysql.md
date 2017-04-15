@@ -13,7 +13,7 @@ excerpt: With some tricks you can create dynamic pivot reports in Mysql. This is
 
 Honestly, one of nice feature that I know from MSSQL and missing in MySQL is PIVOT, it's very handy when generating pivot report from grouped data. Just imagine you have polling system in your website and you want to show the result in bar chart, like this:
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 	+-------------------------------------------------------+------------+----------+
@@ -42,7 +42,7 @@ This form of data needs less processing at backend and you can directly feed thi
 
 Unfortunately MySQL does not support PIVOT but with some hacks you can achieve the same result. Before I start to show you how to do it, I'll give you initial table schema and sample data to create a sample data structure as I have to be able to follow this tutorial step by step. 
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> </div>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> </div>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 Table schema: 
@@ -168,5 +168,5 @@ In addition it is `Stored Procedure` and you can add inputs like `question ID`  
 
 Final note: Thank you and I hope you enjoyed reading it much as I enjoyed writing and I would be very happy to hear your opinion and comments about this article. 
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins></div>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>

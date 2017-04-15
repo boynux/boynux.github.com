@@ -14,7 +14,7 @@ In Ruby a common way to load classes is using `require`. recently I realized tha
 <!-- Responsive Display -->
 <ins class="adsbygoogle adslot_1"
      style="display:block"
-     data-ad-client="ca-pub-5768423765640512"
+     data-ad-client="ca-pub-7360583392867579"
      data-ad-slot="4587256441"
      data-ad-format="horizontal"></ins>
 <script>
@@ -46,7 +46,7 @@ To solve above problems, we can use Ruby `autoload` method, defined in `Module` 
     <!-- Responsive Display -->
     <ins class="adsbygoogle adslot_1"
          style="display:block"
-         data-ad-client="ca-pub-5768423765640512"
+         data-ad-client="ca-pub-7360583392867579"
          data-ad-slot="4587256441"
          data-ad-format="rectangle"></ins>
     <script>

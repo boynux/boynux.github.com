@@ -30,7 +30,7 @@ I decided to install a new OS on my new Raspberry Pi, then I realized that I don
 ### 2- Preparing SD card
 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 Well, this is fairly easy, you need to create partitions on your SD card. First attach your SD card to your laptop/PC and use any partition editor software you prefer. I prefer parted so I explain it here: You need at least these 3 partitions: 
 
@@ -102,7 +102,7 @@ Download Raspberry-Pi firmware and Linux kernel, we can cross-compile kernel but
 
 Now you have installed Gentoo on Raspberry Pi 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 ### 3- Basic setup: 
 
@@ -156,7 +156,7 @@ You should see your nice Gentoo prompt now:
 
 	localhost / #
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="recangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="recangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 ### 5- Setup new environment: 
 
@@ -199,7 +199,7 @@ Select proper profile: This command lists available profiles choose `armv6j`, in
 	# eselect profile list
 	# eselect profile set 21
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 Now you can use emerge to install any extra packages, I'll leave this to you because requirements would be different. You may continue to step 6 without installing any extra packages. 
 
@@ -240,7 +240,7 @@ As you can see my RPi address is 10.42.0.87, now SSH to RPi:
 
 	$ ssh root@10.42.0.87
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 <img class="size-medium wp-image-245 aligncenter" alt="Screenshot from 2013-08-24 22:59:35" src="{{ site.baseurl }}/images/Screenshot-from-2013-08-24-225935-300x191.png" width="300" height="191" />
 

@@ -15,7 +15,7 @@ In the [first post](/rake-pipeline-automation/) I explained how to use Rake to a
 Now let's take one step further. Normally in pipelines in commit stage (or sometimes next stage) there is *unit test* job. Let's see how we can extend our `Rakefile` to handle this job too.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -60,7 +60,7 @@ In order to execute the above task with a specific group name, issue the followi
 Of course you can use other methods to execute only a subset of tests like `--filter`. It's up to you. But the whole thing is pretty much like what I explained you just need to tailor it to your needs.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 

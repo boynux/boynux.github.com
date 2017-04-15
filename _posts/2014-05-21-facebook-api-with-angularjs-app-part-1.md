@@ -12,7 +12,7 @@ In another post I explained details of creating AngularJs module to integrate Fa
 
 Here I create a sample Facebook App and explain how one can actually use that library in a live example. This means you can see the actual code in work here and login and and post/share into your Facebook account using this app. This is not going to be very sophisticated and fancy application but quite explanatory to show some common use cases of Facebook Api using fast growing and power full Javascript framework AngularJs.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Responsive Display --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="auto"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Responsive Display --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="auto"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 In this part I'm going to cover Like/Recommend buttons. 
 
@@ -79,7 +79,7 @@ Let's create a Like button, right here. The only thing that we need to do is add
 </div>
     <br /> 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Display Rect Medium --><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Display Rect Medium --><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7261521241"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 <p>And show faces: </p>
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">facebook</span><span class="o">-</span><span class="nx">like</span> <span class="nx">show</span><span class="o">-</span><span class="nx">faces</span><span class="o">=</span><span class="kc">true</span><span class="o">&gt;&lt;</span><span class="err">/facebook-like&gt;</span>
