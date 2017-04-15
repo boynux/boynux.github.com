@@ -15,7 +15,7 @@ I always see developers tend to store all sort of information in their secure da
 By increasing the Internet usage globally and modern browsers and standards (eg.HTML) with amazing capabilities, we see more and more companies and service providers are moving away from desktop applications toward web and mobile ones. These tools are a great potential to store these kind of data on your application server's behalf.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -36,7 +36,7 @@ For example, If we're working on a web site and we want to track user's last vis
 ### Welcome to the show
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
@@ -75,7 +75,7 @@ We can eliminate three of these transactions. The idea is, we store all those in
 No database interaction at all. Now when user clicks on the link, you'll get the token. Then you just decode *base64* and restore that object, check for date, if it's valid then you regenerate signature based on provided data and compare it to the signature which is in the data. If it matches then it's a genuine data! Update user table with verified email address.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />

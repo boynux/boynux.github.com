@@ -14,7 +14,7 @@ Things start getting more tricky when dealing with two or more different framewo
 
 ## Any problem? 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 The problem comes when you can not control when different frameworks done their initialization and calls. Because some calls and initialization happen asynchronously the code some times works and some times fails randomly or might not work at all. Other problem is synchronizing AngularJs scopes with Facebook API calls, so you can get latest updates easily in Angular friendly way. 
 
@@ -183,7 +183,7 @@ var promise = function (func) {
 };
 {% endhighlight %}
 
-<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7261521241"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
+<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
 These lines of code are defining registerEventHandlers method. This method registers to Facebook API events a simple handler which broadcast those events through Angualr application. With this method we don't need to bind our callbacks directly into Facebook and we can use `$rootScope.$on`. This is more native and makes code easier to write and maintain. This function is here because we need `$rootScope` to be available. It uses `facebookEvent` property which is defined at the beginning of the factory method. You can add or modify different Facebook event you might be ingested in. The format of events would be `fb.<domain>.<event>` (e.g. `fb.auth.login`). 
 
 {% highlight javascript linenos %}
@@ -253,10 +253,10 @@ module.directive ('facebook', function ($location, facebook) {
 });
 {% endhighlight %}
 
-<ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 15px;" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7680323644"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({}); </script> 
+<ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 15px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7680323644"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({}); </script> 
 ## How to use it:
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 I guess you already know how to use this new service. But to make article complete I provide a simple Angular example. Create our application module and define its dependencies, which is our new Facebook module.     
 
@@ -298,7 +298,7 @@ And finally add this HTML tag to your page:
 
 That's it for now. I hope you find it useful. Please don't forget to leave comments via the box at the bottom. And please share it if you think it could be useful to others. You can find complete facebook module source code on [github][3]. 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 References: 
 

@@ -7,7 +7,7 @@ excerpt: How to quickly set up a VPN server using Raspberry Pi, It's very easy t
 I needed a way to access my home private network remotely. I decided to utilize existing **Raspberry Pi** as a VPN server. I'm going to install `Raspbian` as choice of operating system. 
 
 [<img class="size-medium wp-image-900 alignright" title="Rapberry Pi VPN" alt="Raspberry Pi" src="{{ site.url }}/img/Raspi_Colour_R-248x300.png" width="248" height="300" />][1] <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
-<ins class="adsbygoogle" style="display: inline-block; width: 336px; height: 280px;" data-ad-client="ca-pub-7360583392867579" data-ad-slot="7819924448"></ins><script type="text/javascript">// 
+<ins class="adsbygoogle" style="display: inline-block; width: 336px; height: 280px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7819924448"></ins><script type="text/javascript">// 
 (adsbygoogle = window.adsbygoogle || []).push({});
 // </script>
 
@@ -37,7 +37,7 @@ And now making `filesystems`:
 
 ## 3\. Raspbian
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 Installing `Raspbian` which is a Debian port for Raspberry Pi. Considering you already have debootstrap installed on your Linux. Issue the following commands: 
 
@@ -105,7 +105,7 @@ Done.
 
 ## 7\. Boot
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 Now it's time to boot into Raspberry Pi. Insert SD Card into Raspberry Pi and plug network and power cables. Wait for boot to complete. 
 
@@ -145,7 +145,7 @@ Then restart pptpd server:
 ## 10\. Masqurading
 Allow VPN users to access Internet (optional). 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 
     # echo "net.ipv4.ip_forward=1" | tee -a /etc/sysctl.conf

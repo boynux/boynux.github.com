@@ -21,7 +21,7 @@ Everything is working great when I know my home route public IP address, but thi
   
   <ins class="adsbygoogle"
      style="display:inline-block;width:336px;height:280px"
-     data-ad-client="ca-pub-7360583392867579"
+     data-ad-client="ca-pub-5768423765640512"
      data-ad-slot="7819924448"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -39,7 +39,7 @@ I'm going to use one of free `SMTP` email provider, ie. Google Mail. You may cho
   <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Responsive Display -->
   
   <ins class="adsbygoogle" style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
+     data-ad-client="ca-pub-5768423765640512"
      data-ad-slot="4587256441"
      data-ad-format="auto"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -60,7 +60,7 @@ Create a new Gmail (or any other provider) email for your Raspberry Pi. I'm not 
   <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Display Rect Medium -->
   
   <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-7360583392867579"
+     data-ad-client="ca-pub-5768423765640512"
      data-ad-slot="7261521241"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -103,7 +103,7 @@ And here is the script. Just copy and paste the whole thing in bash. This will c
   <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Responsive Display -->
   
   <ins class="adsbygoogle" style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
+     data-ad-client="ca-pub-5768423765640512"
      data-ad-slot="4587256441"
      data-ad-format="auto"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -181,7 +181,7 @@ And make it executable:
   <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- Responsive Display -->
   
   <ins class="adsbygoogle" style="display:block"
-     data-ad-client="ca-pub-7360583392867579"
+     data-ad-client="ca-pub-5768423765640512"
      data-ad-slot="4587256441"
      data-ad-format="auto"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});

@@ -25,7 +25,7 @@ But as projects evolves and more and more developers and operation teams and tes
 DevOps start to bang their head against walls to find a *little* bug which is hidden somewhere, neither could be found nor reproduced! Developers blame operations, operations, devops and ...
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -58,7 +58,7 @@ OK, I was explaining this whole thing from the beginning of this post. Maybe I c
 Going a little further, you'll notice:
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -101,7 +101,7 @@ With this approach you hit 10 birds with one stone.
 ### Bonus:
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />

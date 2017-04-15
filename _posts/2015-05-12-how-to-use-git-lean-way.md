@@ -22,7 +22,7 @@ Let's review what Lean philosophy tells us in computer science. Lean is based on
 <sup>Source: The Toyota Production System (1978)</sup>
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -66,7 +66,7 @@ This one is very important. With each commit you may break some functionalities 
 Now one thing, if you are using CI and upon every push CI server will check your code against acceptance tests and unit tests, you may prefer to let CI server do the hard job of running acceptance test and unit tests for you. But my recommendation is at least make sure that all your unit tests are passing.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
@@ -94,7 +94,7 @@ What really happens is, after finishing the work item, developers merge their co
 The other issue with branching, is that it's affecting collaboration, one of important concepts of Lean. With pushing every commit several times a day into *main* branch, if any changes from any development team breaks the code, it encourages developers to communicate effectively with each other to eliminate the problem.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
 </div> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />

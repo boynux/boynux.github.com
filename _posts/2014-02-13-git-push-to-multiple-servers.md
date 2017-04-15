@@ -13,7 +13,7 @@ I was recently working on a project which was hosted on AppEngine and I also wan
 Now I have a branch called release that's going to be hosted in AppEngine and my master goes into github! Essentially git push to multiple servers. If you have a similar problem and you want an easy solution for that, here is a step by step guide to do that. 
 
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 ## 1. Assumptions:
 
@@ -37,7 +37,7 @@ This will create a new branch called `release` which would be merged with master
 
 **Note:**  `git rm --cahched config.py` does not remove file history in GIT. Obviously the config.py file is still accessible throughout GIT history. If you want to completely wipe-out this file from your GIT history  please read "[How to remove credentials from GIT history][2]". 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 ## 4. Push to github: 
 Now it's time to push master into its new home at github: 

@@ -27,7 +27,7 @@ What happens is, when Docker container gets destroyed and recreated again these 
 ### Solution
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -58,7 +58,7 @@ Obviously the solution is to mount a directory instead of file itself. And here 
 There are two important points here, in `VOLUME` you can see `/logstash` which is exposed and `WORKDIR` which is pointing to `/logstash`. Here is a complete code in [github][7]. This is actually fork of another [forwarder project][3] with these modifications.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />

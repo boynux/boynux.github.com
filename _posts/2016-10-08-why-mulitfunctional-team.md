@@ -8,7 +8,7 @@ excerpt: Often mangers and leaders think of a multifunctional teams as a group o
 ---
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -44,7 +44,7 @@ Our brains process information differently. That's because we have different kno
 There is a high risk that team members in such teams will have a weak sense of safety and they are more defensive as they might see other team members as a threat. This will negatively influence communication and collaboration. And that's what I clearly observed in many occasions.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -69,7 +69,7 @@ First problem arises when people don't let others to understand what they are do
 It might be harder to take over the responsibility of team members since they are the only expert in that area. Although this can also happen in the other approach as well but in this type of teams it's more significant.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />

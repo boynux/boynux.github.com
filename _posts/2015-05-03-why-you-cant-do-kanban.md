@@ -24,7 +24,7 @@ He is definitely a great coach. What I learned from Marcus is that Kanban is not
 
 That's why you can't 'Do Kanban' but you can 'Use Kanban'.
 
-<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<div class="ads"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> </div> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 <br>
 Kanban was originally developed by *Taiichi Ohno* at *Toyota* around 1940s but later introduced and adopted to software development industry. Nowadays we can see most agile teams are using some sort of Kanban boards.

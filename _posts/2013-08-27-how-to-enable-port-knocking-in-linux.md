@@ -13,7 +13,7 @@ In recent years many different systems including hardware and software have deve
 
 Here I'm going to explain one simple iptables configuration which can protect your server and desktop ports from DDoS or Brute-force attack to some extent. 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 ## Scenario 
 
@@ -41,7 +41,7 @@ Note: in order to use this rules you need to have iptables' `recent` kernel modu
 
 This rule is not really part of port knocking and you may have it already in your rules. But in order to avoid dropping SSH packets after the connection has been established this rules is required, just ignore it if you already have it. 
 
-<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
 
 	-A INPUT -p tcp -m tcp --dport 1000 -m recent --set --name KNOCKING --rsource
 	-A INPUT -p tcp -m tcp --dport 22 -m recent --rcheck --seconds 5 --name KNOCKING --rsource -j ACCEPT

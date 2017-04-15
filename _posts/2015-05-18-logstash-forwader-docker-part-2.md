@@ -29,7 +29,7 @@ Another important thing to consider is that you need to have to proper DNS recor
 And finally you need a forwarder configuration which should look like this:
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="rectangle"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
@@ -116,7 +116,7 @@ Then just follow Docker stdout and make sure that it's started properly. If anyt
  In this command I also mounted `/var/log` from host to Docker instance, so it'll harvest `/var/log/messages` and `/var/log/*.log` files from host machines, you may need to change it too.
 
 <div class="ads"> 
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7360583392867579" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="4587256441" data-ad-format="horizontal"></ins> 
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />

@@ -58,7 +58,7 @@ That&#39;s it. This snippet will show a standard medium size Facebook login butt
 <!-- Display Large Rectangle -->
 <ins class="adsbygoogle" 
     style="display:inline-block;width:336px;height:280px" 
-    data-ad-client="ca-pub-7360583392867579" 
+    data-ad-client="ca-pub-5768423765640512" 
     data-ad-slot="7819924448">
 </ins> 
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
@@ -126,7 +126,7 @@ That&#39;s it. This snippet will show a standard medium size Facebook login butt
 <!-- Responsive Display -->
 <ins class="adsbygoogle" 
     style="display:block" 
-    data-ad-client="ca-pub-7360583392867579" 
+    data-ad-client="ca-pub-5768423765640512" 
     data-ad-slot="4587256441" 
     data-ad-format="auto">
 </ins> 
