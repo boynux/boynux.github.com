@@ -253,7 +253,7 @@ module.directive ('facebook', function ($location, facebook) {
 });
 {% endhighlight %}
 
-<ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 15px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7680323644"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({}); </script> 
+<ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 15px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="3173339985"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({}); </script> 
 ## How to use it:
 
 <div class="ads"> <ins class="adsbygoogle adslot_1" style="display:block" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7013600384" data-ad-format="horizontal"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
