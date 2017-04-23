@@ -22,6 +22,22 @@
 	{% elsif site.favicon.enabled and site.favicon.remote.enabled %}
 		<link rel="icon" type="image/{{ site.favicon.remote.type }}" href="{{ site.favicon.remote.full_url }}" />
 	{% endif %}
-	
+
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+	<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+	</script>
+
+	<script>
+googletag.cmd.push(function() {
+	googletag.defineSlot('/280065419/boynux-pages/Dynamic', [[4, 1], [6, 1], 'fluid', [-1, -2], [-1, -1], [88, 31], [120, 20], [120, 30], [120, 60], [120, 90], [120, 240], [120, 600], [125, 125], [160, 600], [168, 28], [168, 42], [180, 150], [200, 200], [216, 36], [216, 54], [234, 60], [240, 400], [250, 250], [300, 50], [300, 75], [300, 100], [300, 250], [300, 600], [320, 50], [320, 480], [336, 280], [468, 60], [480, 320], [728, 90], [768, 1024], [970, 90], [1024, 768]], 'div-gpt-ad-1492962120549-0').addService(googletag.companionAds()).addService(googletag.pubads());
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().enableVideoAds();
+	googletag.companionAds().setRefreshUnfilledSlots(true);
+	googletag.enableServices();
+});
+	</script>
+
 {% endcapture %}
 {{ head_common_html | strip_newlines | remove:'	' }}

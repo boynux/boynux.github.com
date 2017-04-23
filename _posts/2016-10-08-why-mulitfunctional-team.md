@@ -12,7 +12,12 @@ excerpt: Often mangers and leaders think of a multifunctional teams as a group o
     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 <br />
-
+<!-- /280065419/boynux-pages/Dynamic -->
+<div id='div-gpt-ad-1492962120549-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1492962120549-0'); });
+</script>
+</div>
 
 Multifunctional Teams
 ---------------------
