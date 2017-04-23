@@ -22,7 +22,7 @@ Everything is working great when I know my home route public IP address, but thi
   <ins class="adsbygoogle"
      style="display:inline-block;width:336px;height:280px"
      data-ad-client="ca-pub-5768423765640512"
-     data-ad-slot="7819924448"></ins> <script>
+     data-ad-slot="6266407187"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>

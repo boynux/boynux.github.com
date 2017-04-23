@@ -42,7 +42,7 @@ Because all AngularJs modules (in most cases) keep their changes inside `$apply`
 
 ## When to call $apply?
 
-<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 336px; height: 280px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7819924448"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
+<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 336px; height: 280px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="6266407187"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
 
 Most of usual and common asynchronous DOM functionalities like window, timeout, Ajax calls and ... are already provided as AngularJs modules and they in sync with it (ie. `$window`, `$timeout`, `$http`). But still there is some cases that you need to call this function. 
 
