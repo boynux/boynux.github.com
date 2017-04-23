@@ -61,7 +61,7 @@ Create a new Gmail (or any other provider) email for your Raspberry Pi. I'm not 
   
   <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
      data-ad-client="ca-pub-5768423765640512"
-     data-ad-slot="7261521241"></ins> <script>
+     data-ad-slot="1696606781"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>

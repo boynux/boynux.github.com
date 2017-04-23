@@ -32,7 +32,7 @@ In reality, if you want to manually do all these jobs a few problems arises:
 4. Cleaning up all the mess.
 
 <div style="float: left; margin: 4px;">
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"> </ins> 
+  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="1696606781"> </ins> 
   <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 
@@ -134,7 +134,7 @@ How to do it?
 
 
 <div style="float: right; margin: 4px;">
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"> </ins> 
+  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5768423765640512" data-ad-slot="1696606781"> </ins> 
   <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 </div>
 

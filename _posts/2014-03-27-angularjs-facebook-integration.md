@@ -183,7 +183,7 @@ var promise = function (func) {
 };
 {% endhighlight %}
 
-<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="7261521241"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
+<div style="float: right;"> <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-5768423765640512" data-ad-slot="1696606781"></ins><script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> 
 These lines of code are defining registerEventHandlers method. This method registers to Facebook API events a simple handler which broadcast those events through Angualr application. With this method we don't need to bind our callbacks directly into Facebook and we can use `$rootScope.$on`. This is more native and makes code easier to write and maintain. This function is here because we need `$rootScope` to be available. It uses `facebookEvent` property which is defined at the beginning of the factory method. You can add or modify different Facebook event you might be ingested in. The format of events would be `fb.<domain>.<event>` (e.g. `fb.auth.login`). 
 
 {% highlight javascript linenos %}
