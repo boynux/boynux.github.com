@@ -38,7 +38,7 @@ Apparently there are a few definitions of "multifunctional team". Sometimes mana
 
 I favor the latter and I have a few reasons.
 
-As I already mentioned above no one can be expert at anything, specially in software. Software industry moves very fast, thus we need experts to focus on the specific subjects, like UX, design, programming, infrastructure, delivery, operations, machine learning and ...
+As I already mentioned above no one can be expert at everything, specially in software. Software industry moves very fast, thus we need experts to focus on the specific subjects, like UX, design, programming, infrastructure, delivery, operations, machine learning and ...
 
 Even in imaginary situation that everyone is expert at everything, then they will step on each other toes. Experts are human beings first, and they have opinions. The fact that they are experts does not mean they necessarily have the same line of thinking and usually they don't.
 
