@@ -5,7 +5,7 @@ tags: DevOps Agile Microservices Software
 category: Fiction
 ---
 
-This is a try to write a fiction based on my years of experience in software development and operations. I tried to picture some of the biggest struggles and fundamental issues in IT based businesses' daily work. Some of these core problems are common more or less every organization that I worked.
+This is a try to write a fiction based on my years of experience in software development and operations. I tried to picture some of the biggest struggles and fundamental issues in IT based businesses' daily work. Some of these core problems are common more or less in every organization that I worked.
 
 The names and personalities described here are fictional and any similarity to any real person is coincidental.
 
