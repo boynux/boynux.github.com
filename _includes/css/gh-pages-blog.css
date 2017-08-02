@@ -32,9 +32,10 @@ body {
 .ghpb-post {
   padding: 1em;
 
+  font-size: larger;
   background: #fff;;
 }
+
 .ghpb-post p {
-  font-size: larger;
   margin-bottom: 20px;
 }

@@ -35,6 +35,10 @@ body {
   background: #eaeaea;
 }
 
+.ghpb-post {
+  font-size: larger;
+}
+
 .ghpb-post p {
   font-size: larger;
   margin-bottom: 20px;
