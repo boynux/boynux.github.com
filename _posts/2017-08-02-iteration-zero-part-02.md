@@ -3,8 +3,10 @@ layout: post
 title: Iteration Zero - Introduction
 tags: DevOps Agile Microservices Software
 category: Fiction
-published: false
 ---
+
+Cool tech
+---------
 
 The vibration of my smart watch wakes me up, I don't bother to open my eyes, I'll reach the watch with my right hand and turn its bezel to stop the vibration. Then I roll on the bed and bump to my wife. She does not move, I'm happy that I didn't wake her up.
 
@@ -45,11 +47,36 @@ A few minutes later, everyone is at the breakfast table. I look at my watch its 
 - K chocolate? OK daddy?
 - Yes, sure.
 
- "Don't promise to buy chocolates, Paul had enough yesterday.", Kathrine says out loud.
+"Don't promise to buy chocolates, Paul had enough yesterday.", Kathrine says out loud.
 
 - OK, honey.
 
 "Mommy is not my friend, daddy is my friend." Paul responds.
 
-I smile and close the door.
+I smile and close the door. I put the headsets on, tap my phone to it and hearing it says 'connected'. I start playing "The Goal" audio book.
+
+While walking to the train station I'm thinking to myself why recently I have no courage to wake up and go to work. I used to love what I do but things are changing now. While I'm at the station the board shows the next train arrives in 4 minutes. Fortunately it's not late today.
+
+The thoughts start to flow again, what's really wrong with me? Why I can't focus anymore. I joined "WOT Commerce" about a year ago as a head of operations. We are an eCommerce company focused on aggregating all sort of cool tech wearables and IoT so our users can find various products in one place. The business model is commission based. For every redirect to the device's web shop or home page we get paid a fee. The business looks promising specially in the rapidly growing IoT and wearables' market.
+
+Since the last round of investments the numbers started to fluctuate and now there are some rumors around that we are not going to hit the revenue target of this year anymore which is in nearly six months. That bothers me all day long. The problem is I could not figure out what the problem exactly is. We have lots of strong developers, the most recent technology and the motivation to do these stuff.
+
+Recently employees turn over gone too the roof. The company is trying to compensate employees above the market rates. There are also lots of support and perks for the employees. At least a big party every quarter, free breakfast, a big coffee machines, fruit baskets everywhere. Pool tables and kickers. The best working equipments. Financial support for conferences and trainings. Still it feels like something bothers everyone including me. But I'm not sure yet what it is. Is this the same thing that causes even recently joined employees to leave?
+
+Train stops and I try find my way through a huge crowed. Now I'm out and can take a deep breath, it felt like I was choking. The audio book says "chapter 3" but I can't remember I did hear even a word of it. Damn, it seems I was too drawn in my thoughts. I stop the book and play the Nickleback's album *No Fixed Address*.
+
+Then I walk down to the street, 15 minutes later I enter the office. It's 8:30 and office looks empty. "It seems no one wants to leave the bed early". I put my backpack by my desk and head to the coffee machine.
+
+- Good morning, John
+
+He's Dave, he is a software developer, he is a very bright guy and always armed with a Nerf gun. He works in a "Partner integration team".
+
+- Morning Dave, how are you today?
+- I'm fine, how about yourself?
+- Not bad, not bad, could not sleep well last night, I have to dose up my espresso's today.
+- Don't drink too much.
+
+I make a double shot cappuccino and head back to my desk, turn on my computer. It's on standby but surprisingly nothing shows up. Just a black screen, I look at the keyboard and press the caps lock button, does not lite up. It's crashed again. I force reboot my laptop, I see the "Ubuntu" logo shows up and I smile again.
+
+"Looks like the last update broke the sleep mode again!" In say it loudly.
 
