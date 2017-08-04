@@ -61,8 +61,6 @@ The thoughts start to flow again, what's really wrong with me? Why I can't focus
 
 Since the last round of investments the numbers started to fluctuate and now there are some rumors around that we are not going to hit the revenue target of this year anymore which is in nearly six months. That bothers me all day long. The problem is I could not figure out what the problem exactly is. We have lots of strong developers, the most recent technology and the motivation to do these stuff.
 
-Recently employees turn over gone too the roof. The company is trying to compensate employees above the market rates. There are also lots of support and perks for the employees. At least a big party every quarter, free breakfast, a big coffee machines, fruit baskets everywhere. Pool tables and kickers. The best working equipments. Financial support for conferences and trainings. Still it feels like something bothers everyone including me. But I'm not sure yet what it is. Is this the same thing that causes even recently joined employees to leave?
-
 Train stops and I try find my way through a huge crowed. Now I'm out and can take a deep breath, it felt like I was choking. The audio book says "chapter 3" but I can't remember I did hear even a word of it. Damn, it seems I was too drawn in my thoughts. I stop the book and play the Nickleback's album *No Fixed Address*.
 
 Then I walk down to the street, 15 minutes later I enter the office. It's 8:30 and office looks empty. "It seems no one wants to leave the bed early". I put my backpack by my desk and head to the coffee machine.
@@ -78,5 +76,11 @@ He's Dave, he is a software developer, he is a very bright guy and always armed 
 
 I make a double shot cappuccino and head back to my desk, turn on my computer. It's on standby but surprisingly nothing shows up. Just a black screen, I look at the keyboard and press the caps lock button, does not lite up. It's crashed again. I force reboot my laptop, I see the "Ubuntu" logo shows up and I smile again.
 
-"Looks like the last update broke the sleep mode again!" In say it loudly.
+"Looks like the last update broke the sleep mode again!" I say it loudly.
+
+"You have 12 new emails", notification pops up.
+
+Opening my mailbox with the title "HR Updates" catches my eyes, recently we got the news that someone is leaving at least twice a month. So naturally I think to myself who's this time. She is Maryam the Iranian girl from the SEO team.
+
+Recently employees turn over gone too the roof. The company is trying to compensate employees above the market rates. There are also lots of support and perks for the employees. At least one big party every quarter, free breakfast, a big coffee machines, fruit baskets everywhere. Pool tables and kickers. The best working equipments. Financial support for conferences and trainings. Still it feels like something bothers everyone. But I'm not sure yet what it is. Is this the same thing that causes even recently joined employees to leave?
 
