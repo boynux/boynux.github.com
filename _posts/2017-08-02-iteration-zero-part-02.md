@@ -5,14 +5,11 @@ tags: DevOps Agile Microservices Software
 category: Fiction
 ---
 
-Cool tech
----------
+The smart watch's vibration wakes me up, I don't bother to open my eyes, and reach the watch and turn its bezel to stop the vibration. Rolling on the bed I bump to my wife, she does not move, I'm happy that I didn't wake her up.
 
-The vibration of my smart watch wakes me up, I don't bother to open my eyes, I'll reach the watch with my right hand and turn its bezel to stop the vibration. Then I roll on the bed and bump to my wife. She does not move, I'm happy that I didn't wake her up.
+That would be good if I could sleep a little more. I still feel so tired. I hear cars roaring from the half open window. It's mid summer and the weather is getting warmer. Our bed room is faced toward a crowded highway and with this heat we can't close the windows.
 
-That would be good if I could sleep a little more. I still feel so tired. Then I hear cars roaring from the half open windows. It's mid summer and the weather is getting warmer. Our bed room is faced toward a crowded highway and with this heat we can't close the windows.
-
-The watch starts to vibrate again. I can't believe ten minutes has been passed so quickly. I hardly open my eyes, then each out to my watch and try to enter the pin to stop the snooze.
+The watch starts to vibrate again. I can't believe ten minutes has been passed so quickly. I hardly open my eyes, then reach out to my watch and try to enter the pin to stop the snooze.
 
 - "Pin error" watch shows on the screen.
 I try again.
