@@ -21,4 +21,4 @@ Iteration Zero:
 ---------------
 
 * [Introduction](/iteration-zero-part-01-introduction)
-* [Part two - Cool tech](/iteration-zero-part-02)
+* [Chapter 1 - Cool tech](/iteration-zero-part-02)
