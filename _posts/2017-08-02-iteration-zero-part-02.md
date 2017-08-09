@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iteration Zero - Introduction
+title: Iteration Zero - Cool Tech
 tags: DevOps Agile Microservices Software
 category: Fiction
 ---
