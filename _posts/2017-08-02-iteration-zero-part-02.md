@@ -3,6 +3,7 @@ layout: post
 title: Iteration Zero - Cool Tech
 tags: DevOps Agile Microservices Software
 category: Fiction
+published: false
 ---
 
 The smart watch's vibration wakes me up, I don't bother to open my eyes, and reach the watch and turn its bezel to stop the vibration. Rolling on the bed I bump to my wife, she does not move, I'm happy that I didn't wake her up.
