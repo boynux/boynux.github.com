@@ -3,6 +3,7 @@ layout: post
 title: Iteration Zero - Introduction
 tags: DevOps Agile Microservices Software
 category: Fiction
+published: false
 ---
 
 This is a try to write a fiction based on my years of experience in software development and operations. I tried to picture some of the biggest struggles and fundamental issues in IT based businesses' daily work. Some of these core problems are common more or less in every organization that I worked.

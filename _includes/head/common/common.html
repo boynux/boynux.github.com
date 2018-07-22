@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="{{ site.url }}/styles.css">
 
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script src="js/gdpr-cookie.js"></script>
 
 
 	{% if site.rss.enabled %}
@@ -41,8 +40,5 @@ googletag.cmd.push(function() {
 });
 	</script>
 
-  <script>
-    $.gdprcookie.init();
-  </script>
 {% endcapture %}
 {{ head_common_html | strip_newlines | remove:'	' }}
