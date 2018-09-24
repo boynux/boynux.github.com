@@ -6,7 +6,7 @@ tags:
     - impact mappin
     - agile
     - marcus hammarberge
-category: methodologies
+category: Methodologies
 ---
 
 [<img src="{{ site.url }}/img/impact-mapping-small.jpg" alt="Impact Mapping" align="right" />][3]

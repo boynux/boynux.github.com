@@ -3,7 +3,7 @@ layout: post
 title: Iterative and Flow model what to choose
 excerpt: In agile world most common development method is the one which is known as iterative. Breaking tasks into small 2-4 weeks iterations. But there is another option, Flow model!
 tags: Agile Scrum Kanban Flow Iteration
-category: methodologies
+category: Methodologies
 ---
 
 ### What is Iterative model:
@@ -33,7 +33,7 @@ At the end, new features will be demonstrated to stakeholders for feedback. At t
 <br />
 Teams are usually cross functional and as autonomous as possible to decrease *noise factor* and have more predictable *velocity*. This way stakeholder are able to roughly estimate how many iterations a particular feature may require to be ready for market release, so that they prioritize their backlog items based on that information and of course other business factors.
 
-[*Scrum*][3] is one of well known methodologies which is neatly based on this idea. Roles are pretty well defined and iterations are strictly planned. In Scrum there is no excuse for breaking time frames or changing requirements within sprints.
+[*Scrum*][3] is one of well known Methodologies which is neatly based on this idea. Roles are pretty well defined and iterations are strictly planned. In Scrum there is no excuse for breaking time frames or changing requirements within sprints.
 
 ### What is Flow model:
 

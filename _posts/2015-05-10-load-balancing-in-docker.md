@@ -3,7 +3,7 @@ layout: post
 title: Load Balancing in Docker
 excerpt: How to implement Layer-4 in Docker containers. Layer-4 Load balance is a very powerful method and adding that to Docker eco-system is very interesting.
 tags: Docker Load_Balancing Container LVS Route Networking
-category: Sysadmins
+category: SysAdmins
 ---
 
 <div style="float: right">

@@ -6,7 +6,7 @@ tags:
   - Kaizen
   - Agile
   - Lean
-category: methodologies
+category: Methodologies
 ---
 
 I was watching a Youtube video from *Mary Poppendiek* which was recorded at Google TechTalks 2008 about [The role of leadership in software development][1]. Yes, pretty old video but very interesting. There was a heap of information and ideas flowing through my mind. Suddenly a quote from *[Workspace Management][2]* book written by *[Taiichi Ohno][2]* known as *Father of Toyta Production System* caught my eyes and here it is:

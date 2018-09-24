@@ -24,7 +24,7 @@ Multifunctional Teams
 
 Software is getting more complex and its ecosystem is changing rapidly. Applications that we could write as a monolith system with a few developers and isolated system administrators and operations team don't exist anymore. Customers' expectations have skyrocketed and the infrastructure and tools got so much complex and sophisticated that no human being can possibly understand it all.
 
-From all the programming languages, databases, operating systems, content delivery methods, network infrastructure, cloud and its friends, ... to project management methodologies have been created so much diversity that even choosing proper tools and processes is often a significant problem by itself.
+From all the programming languages, databases, operating systems, content delivery methods, network infrastructure, cloud and its friends, ... to project management Methodologies have been created so much diversity that even choosing proper tools and processes is often a significant problem by itself.
 
 DevOps movement influenced software industry at large in past few years and tried to simplify the complexity by merging different teams into one or multiple "multifunctional teams". The idea is simple, each team should be able to create, deliver and operate its own software and service.
 

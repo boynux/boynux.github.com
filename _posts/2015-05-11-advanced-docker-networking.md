@@ -3,7 +3,7 @@ layout: post
 title: Advanced Docker Networking
 excerpt: Using Linux containers and specially Docker solves lots of deployments problems easily that would be difficult otherwise. By adding some advanced networking features make it even more powerful.
 tags: Docker Networking Kernel_Namespaces
-category: Sysadmins
+category: SysAdmins
 ---
 
 <div style="float: right">
