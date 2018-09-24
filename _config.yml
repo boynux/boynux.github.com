@@ -3,7 +3,7 @@ remote_theme: daviddarnes/alembic
 name : Boynux
 brand : Boynux
 description : The way it works ...
-url : //www.boynux.com
+url : "https://www.boynux.com"
 email : reachme@boynu.com
 author: Boynux
 
