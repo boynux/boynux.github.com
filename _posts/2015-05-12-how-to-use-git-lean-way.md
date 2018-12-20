@@ -71,8 +71,6 @@ Now one thing, if you are using CI and upon every push CI server will check your
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 <br />
 
-This falls into *Relentless Improvement*, by pushing small part of code which is working and potentially can go into production, you're gradually improving your product toward the main goal, which is the work item you're working on. By letting CI server run all sort of tests that you have, you're experimenting your changes in - close to - production environment too, which is fantastic. If something goes wrong, you catch it as soon as possible.
-
 **4. Push as soon as you can**
 
 Well, this clear that if you push your code as soon as you can, you'll get feedback from CD, CI and other developers and teams as soon as possible. That's Lean.
