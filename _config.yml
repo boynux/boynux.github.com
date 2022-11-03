@@ -74,6 +74,8 @@ navigation_header:
 disqus: boynux
 google_analytics: UA-60601499-1
 
+include: [".well-known"]
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
